@@ -1,0 +1,488 @@
+char-set: UTF-8
+#
+#  File exported Fri Oct 11 12:22:40 2019
+#
+begin container
+   name           : FO:DJPS_Guide022_OpenInterventionTypes
+   type           : 1
+   num-references : 8
+   timestamp      : 1564477738
+   owner          : MFORMAN
+   owning-obj     : 1\2\22\FO:DialogJobPriceStock\
+   last-changed   : MFORMAN
+   export-version : 11
+   permission     : 1000\1
+   description    : This guideopens the Intervention Type pop-up for LITE Jobs, then builds the external qualification for the table fields to be filled. Then calls the Cal
+   description    : culcateVplus flag guide. 
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide020_062_SF(SetIsCar
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide020_064_SFOWPFCF(OpenInterventionType
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide022_GoTo(Repair
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide022_SFCFGoTo(Autres
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide022_CG023(BuildExternalQualif
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : VPLUS
+   value          : 0\
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide022_CG013(CalculateVplusFlag
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : END
+   value          : 0\
+}
+end
+begin container
+   name           : FO:DJPS_Guide020_JobHistory
+   type           : 1
+   num-references : 9
+   timestamp      : 1563958276
+   owner          : admin
+   owning-obj     : 1\2\22\FO:DialogJobPriceStock\
+   last-changed   : MFORMAN
+   export-version : 11
+   permission     : 1000\2
+   label          :  
+   description    : Opens Job History Dialog
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide020_005_SF(SearchDate
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide020_010_SFDi(JobHistory
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide020_020_SF(GetDetails
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide020_040_CG011(VehicleIdentified
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide020_050_PF(DatabaseHitAccept
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide020_060_SF(GetVehicleTypeID
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide020_CG(OpenInterventionTypes
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide020_065_SQL(PerformanceLog-Start
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide020_070_CG017CG015SFPFOWCW(FollowUp
+}
+end
+begin container
+   name           : FO:DJPS_Guide100_CheckCalibrationJobProduct
+   type           : 1
+   num-references : 2
+   timestamp      : 1557952626
+   owner          : BMANSEUR
+   owning-obj     : 1\2\22\FO:DialogJobPriceStock\
+   last-changed   : RPETITEAU
+   export-version : 11
+   permission     : 1000\1
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide100_100_SF(GetCalibrationJobProduct
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide100_200_EG(CheckCalibrationJobProduct
+}
+end
+begin container
+   name           : FO:DJPS_Guide021_CheckVRNRunOnce
+   type           : 1
+   num-references : 2
+   timestamp      : 1282798582
+   owner          : jfoss
+   owning-obj     : 1\2\22\FO:DialogJobPriceStock\
+   last-changed   : admin
+   export-version : 11
+   permission     : 1000\2
+   label          :  
+   change-diary   : 1282798582admin14/07/2010 17:25:55 kmurdock : CR1459
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide021_CheckVRNRunOnce_010_SF(GetVehicleInterfaceRecord
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide021_CheckVRNRunOnce_020_Di_SF(GetVehicleInterfaceRecord-Result
+}
+end
+begin container
+   name           : FO:DJPS_Guide095_TableJPUpdate_CheckCalibrationProduct
+   type           : 1
+   num-references : 2
+   timestamp      : 1557952782
+   owner          : BMANSEUR
+   owning-obj     : 1\2\22\FO:DialogJobPriceStock\
+   last-changed   : RPETITEAU
+   export-version : 11
+   permission     : 1000\1
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide095_100_CG(GetCalibrationJobProduct
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide095_200_PF(FlagUnflagAdasJob
+}
+end
+begin container
+   name           : FO:DJPS_Guide200_CheckProductQuantityLimit
+   type           : 1
+   num-references : 11
+   timestamp      : 1567001591
+   owner          : MFORMAN
+   owning-obj     : 1\2\22\FO:DialogJobPriceStock\
+   last-changed   : TGUISEMBERT
+   export-version : 11
+   permission     : 1000\1
+   label          : Check Product Quantity Limits
+   description    : This guides checks the quantity and items ordered. If the quantity is more than the maximum allowed, exit all current guides and display an error messag
+   description    : e.
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : INIT
+   value          : 0\
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide200_100_SF(GetParameters
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide200_200_SF(GetDefaultParameters
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide200_300_SF(CountJobProducts
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide200_400_GoTo(CheckProductReferenceQuantity
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide200_500_GoTo(CheckProductPositionQuantity
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Error
+   value          : 0\
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide200_700_SF(PrepareErrorMessage
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide200_800_OW(DisplayError
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Add
+   value          : 0\
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide200_600_SF(ResetFields
+}
+end
+begin container
+   name           : FO:DJPS_Guide023_BuildExternalQualif
+   type           : 1
+   num-references : 1
+   timestamp      : 1564403369
+   owner          : MFORMAN
+   owning-obj     : 1\2\22\FO:DialogJobPriceStock\
+   last-changed   : MFORMAN
+   export-version : 11
+   permission     : 1000\1
+   description    : This guide builds the external qualification for the Table View Product, displaying possible items for the selected window position. If 'intervention_ty
+   description    : pe' = "AUTRES", then it displays all availables lights for the selected Vehicle.
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide023_SF
+}
+end
+begin container
+   name           : FO:DJPS_Guide100_PopupCalibration
+   type           : 1
+   num-references : 13
+   timestamp      : 1557952715
+   owner          : BMANSEUR
+   owning-obj     : 1\2\22\FO:DialogJobPriceStock\
+   last-changed   : RPETITEAU
+   export-version : 11
+   permission     : 1000\1
+   description    : Ajout forfait calibrage 
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : CheckPopUpVerif
+   value          : 0\
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide100_100_GoToGL(CheckPopDisplayed
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : RecupAdasFlag
+   value          : 0\
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide100_200_SF(GetAdasJobProduct
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide100_250_GotoGL(CheckAdasJobProduct
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : CheckCalibrationProduct
+   value          : 0\
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide100_300_CG(GetCalibrationJobProduct
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide100_350_GoToGL(CheckCalibrationJobProduct
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Display PopUp
+   value          : 0\
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide100_400_OW(DisplayCalibrationPopup
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : CheckTableRefresh
+   value          : 0\
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide100_500_SF_RP_CF_PF(AddCalibrationProductToJob
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : End
+   value          : 0\
+}
+end
+begin container
+   name           : FO:DJPT_Guide001_RecalculateAmountOutstanding
+   type           : 1
+   num-references : 1
+   timestamp      : 1224733678
+   owner          : rnishtala
+   owning-obj     : 1\2\19\FO:DialogJobPayment\
+   last-changed   : admin
+   export-version : 11
+   permission     : 1000\2
+   label          : FO:DJPT_Guide001_RecalculateAmountOutstanding
+   description    : To recalculate the amount outstanding for a job
+   change-diary   : 1224733678admin19/08/2008 15:48:52 rnishtala : CR1239
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPT_Guide001_010_SF(GetMotoristAmountDue
+}
+end
+begin container
+   name           : FO:DJPS_Guide019_QuickRepair
+   type           : 1
+   num-references : 19
+   timestamp      : 1279080673
+   owner          : jfoss
+   owning-obj     : 1\2\22\FO:DialogJobPriceStock\
+   last-changed   : admin
+   export-version : 11
+   permission     : 1000\2
+   label          :  
+   description    : Add Quick Repair
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_010_SF(CheckForWindscreens
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_020_DiGoToEnd(ErorrWindcreenFound
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_030_SF(GetNumberofRepairs
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_040_DiGoToEnd(FranceRepairExists
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_050_SF(NoRepairs
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_060_SF(OneRepair
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_070_SF(TwoRepairs
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_080_DiGoToEnd(ErrorMorethan2Repairs
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_090_CG03(GetVehicleTypeID
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_100_GoToEnd(NoVehicleTypeID
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_110_SFPF(CreateJobProductRecord
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_120_CG018(SelectLocationRepairProductBranch
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_130_PF(AddLocationProducts
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_140_CG04CG05(SelectLocationProduct
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_150_CG07(FranceSetRepairProducts
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_160_CFSFCG011(RefreshTableLockFields
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_165_SF(InitPricing
+}
+reference {
+   type           : 5
+   datatype       : 0
+   object         : FO:DJPS_Guide019_170_CG16(EnableCountinueIfStockCheck
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : End
+   value          : 0\
+   ref-groups     : 1000
+}
+end

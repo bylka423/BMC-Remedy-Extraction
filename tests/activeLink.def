@@ -1,0 +1,266 @@
+char-set: UTF-8
+#
+#  File exported Fri Oct 11 12:19:57 2019
+#
+begin active link
+   name           : FO:BM_ButtonBranchSearch_010_SF(UPPER
+   timestamp      : 1392777322
+   export-version : 11
+   owner          : jfoss
+   last-changed   : admin_fr
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : FO:BranchManager
+   actlink-mask   : 1
+   actlink-control: 900000139
+   enable         : 1
+   permission     : 1000
+   actlink-query  : 4\6\1\536871126\2\0\
+   action {
+      set-field   : 0\536871126\105\14\1\102\1\*\1\*\1\536871126\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end
+begin active link
+   name           : FO:BM_ButtonBranchDetails_010_Di(ShowBranchDetails
+   timestamp      : 1392777322
+   export-version : 11
+   owner          : AVARANASI_FR
+   last-changed   : admin_fr
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : FO:BranchManager
+   actlink-mask   : 1
+   actlink-control: 536870846
+   enable         : 1
+   permission     : 1000
+   actlink-query  : 4\6\1\536879149\2\0\
+   action {
+      open-server : @
+      open-schema : FO:DialogDisplayBranch
+      open-vui    : 
+      open-close  : 1
+      open-input  : 1\536870918\102\1\@\1\@\1\536879149\0\1\4\
+      open-output : 0\
+      open-winmod : 0
+      open-target : New
+      open-pollint: 0
+      open-continu: 1
+      open-suppres: 0
+      open-msgtype: 0
+      open-msgnum : 10000
+      open-msgpane: 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end
+begin active link
+   name           : FO:BM_ButtonBranchBack_007_CG031_SF(SetAppDate
+   timestamp      : 1392777322
+   export-version : 11
+   owner          : jfoss
+   last-changed   : admin_fr
+   actlink-order  : 7
+   wk-conn-type   : 1
+   schema-name    : FO:BranchManager
+   actlink-mask   : 1
+   actlink-control: 536870875
+   enable         : 1
+   permission     : 1000
+   actlink-query  : 1\4\6\1\536871047\2\0\4\6\1\900000183\2\0\
+   action {
+      call-server : @
+      call-guide  : FO:BM_Guide032_ApptDate
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   else {
+      set-field   : 0\536879154\101\0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end
+begin active link
+   name           : FO:BM_ButtonBranchBack_010_PF(UpdateJobUnAllocated
+   timestamp      : 1392777322
+   export-version : 11
+   owner          : jfoss
+   last-changed   : admin_fr
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : FO:BranchManager
+   actlink-mask   : 1
+   actlink-control: 536870875
+   enable         : 1
+   permission     : 1000
+   actlink-query  : 4\1\1\536879145\2\6\0\
+   action {
+      push-field  : 0\1\@\10\FO:JobTask\1\536870918\1\4\1\1\1\99\536879147\4\1\1\7\2\6\0\3\3\102\1\@\1\@\1\536879120\0\1\4\
+      push-field  : 1\1\@\10\FO:JobTask\1\536870962\1\4\1\1\1\99\536879147\4\1\1\7\2\6\0\3\3\102\1\@\1\@\1\536879119\0\1\4\
+      push-field  : 2\1\@\10\FO:JobTask\1\536870923\1\4\1\1\1\99\536879147\4\1\1\7\2\6\0\3\3\102\1\@\1\@\1\900000184\0\1\4\
+      push-field  : 3\1\@\10\FO:JobTask\1\536870961\1\4\1\1\1\99\536879147\4\1\1\7\2\6\0\3\3\102\1\@\1\@\1\536871273\0\1\4\
+   }
+   action {
+      push-field  : 0\1\@\12\FO:JobDetail\1\536870921\4\1\1\1\99\536879117\3\3\101\4\20\Update From Job Task\
+      push-field  : 1\1\@\12\FO:JobDetail\1\536870952\4\1\1\1\99\536879117\3\3\102\1\@\1\@\1\536871273\0\1\4\
+      push-field  : 2\1\@\12\FO:JobDetail\1\536870939\4\1\1\1\99\536879117\3\3\102\1\@\1\@\1\900000168\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end
+begin active link
+   name           : FO:BM_ButtonBranchBack_005_SFCG031(TaskStatusCustAvail
+   timestamp      : 1392777322
+   export-version : 11
+   owner          : jfoss
+   last-changed   : admin_fr
+   actlink-order  : 5
+   wk-conn-type   : 1
+   schema-name    : FO:BranchManager
+   actlink-mask   : 1
+   actlink-control: 536870875
+   enable         : 1
+   permission     : 1000
+   action {
+      set-field   : 0\536879145\102\1\@\10\FO:JobTask\1\7\4\1\1\1\99\536879147\2\3\
+   }
+   action {
+      call-server : @
+      call-guide  : FO:BM_Guide031_CustomerAvail
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end
+begin active link
+   name           : FO:BM_ButtonBranchBack_030_CW(CloseBM
+   timestamp      : 1392777322
+   export-version : 11
+   owner          : jfoss
+   last-changed   : admin_fr
+   actlink-order  : 30
+   wk-conn-type   : 1
+   schema-name    : FO:BranchManager
+   actlink-mask   : 1
+   actlink-control: 536870875
+   enable         : 1
+   permission     : 1000
+   action {
+      close-wnd   : 
+      close-all   : 0
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end
+begin active link
+   name           : FO:BM_ButtonBranchBack_010_PF(UpdateJobAllocated
+   timestamp      : 1392777322
+   export-version : 11
+   owner          : jfoss
+   last-changed   : admin_fr
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : FO:BranchManager
+   actlink-mask   : 1
+   actlink-control: 536870875
+   enable         : 1
+   permission     : 1000
+   actlink-query  : 4\1\1\536879145\2\6\1\
+   action {
+      push-field  : 0\1\@\12\FO:JobDetail\1\536870921\4\1\1\1\99\536879117\3\3\101\4\20\Update From Job Task\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end
+begin active link
+   name           : FO:BM_ButtonBranchSearch_001_CG039(CheckJobSession
+   timestamp      : 1392777322
+   export-version : 11
+   owner          : AVARANASI_FR
+   last-changed   : admin_fr
+   actlink-order  : 1
+   wk-conn-type   : 1
+   schema-name    : FO:BranchManager
+   actlink-mask   : 1
+   actlink-control: 900000139
+   enable         : 1
+   permission     : 1000
+   actlink-query  : 4\1\2\1\16\2\4\16\JMAppBookingView\
+   action {
+      call-server : @
+      call-guide  : FO:BM_Guide039_LockBranchManager
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end
+begin active link
+   name           : FO:BM_ButtonBranchBack_020_EVTRP(UpdateJM
+   timestamp      : 1392777322
+   export-version : 11
+   owner          : jfoss
+   last-changed   : admin_fr
+   actlink-order  : 20
+   wk-conn-type   : 1
+   schema-name    : FO:BranchManager
+   actlink-mask   : 1
+   actlink-control: 536870875
+   enable         : 1
+   permission     : 1000
+   action {
+      command     : SET-CHANGE-FLAG 0
+   }
+   action {
+      command     : PERFORM-ACTION-SEND-EVENT @ "BookJobUpdate" $536879117$
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end
+begin active link
+   name           : FO:BM_ButtonBranchBack_010_PF(UpdateJobUnAllocatedAppDateSet
+   timestamp      : 1392777322
+   export-version : 11
+   owner          : jfoss
+   last-changed   : admin_fr
+   actlink-order  : 10
+   wk-conn-type   : 1
+   schema-name    : FO:BranchManager
+   actlink-mask   : 1
+   actlink-control: 536870875
+   enable         : 0
+   permission     : 1000
+   actlink-query  : 1\4\1\1\536879145\2\6\0\4\6\1\536879154\2\0\
+   action {
+      push-field  : 0\1\@\10\FO:JobTask\1\536870918\1\4\1\1\1\99\536879147\4\1\1\7\2\6\0\3\3\102\1\@\1\@\1\536879120\0\1\4\
+      push-field  : 1\1\@\10\FO:JobTask\1\536870962\1\4\1\1\1\99\536879147\4\1\1\7\2\6\0\3\3\102\1\@\1\@\1\536879119\0\1\4\
+      push-field  : 2\1\@\10\FO:JobTask\1\536870923\1\4\1\1\1\99\536879147\4\1\1\7\2\6\0\3\3\102\1\@\1\@\1\900000184\0\1\4\
+      push-field  : 3\1\@\10\FO:JobTask\1\536870961\1\4\1\1\1\99\536879147\4\1\1\7\2\6\0\3\3\102\1\@\1\@\1\536871273\0\1\4\
+      push-field  : 4\1\@\10\FO:JobTask\1\536870914\1\4\1\1\1\99\536879147\4\1\1\7\2\6\0\3\3\102\1\@\1\@\1\536879154\0\1\4\
+   }
+   action {
+      push-field  : 0\1\@\12\FO:JobDetail\1\536870921\4\1\1\1\99\536879117\3\3\101\4\20\Update From Job Task\
+      push-field  : 1\1\@\12\FO:JobDetail\1\536870952\4\1\1\1\99\536879117\3\3\102\1\@\1\@\1\536871273\0\1\4\
+      push-field  : 2\1\@\12\FO:JobDetail\1\536870939\4\1\1\1\99\536879117\3\3\102\1\@\1\@\1\900000168\0\1\4\
+   }
+   object-prop    : 6\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60016\4\1\0\60017\4\1\0\
+   errhandler-opt : 0
+   errhandler-name: 
+end

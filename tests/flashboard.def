@@ -1,0 +1,14 @@
+char-set: UTF-8
+begin Data Visualization Definition
+   name           : classcount
+   module         : Flashboard
+   subtype        : FLASHBOARD
+   objectdata     : 4,4,"Demo"; 5,4,"AR Init"; 6,7,"1297546626"; 7,6,"0"; 8,4,"Flashboard Module Definition"; 179,4,"{2F38D0E6-E95B-4F72-88B9-D825DC126B67}"; 41000,4,"Flashboard"; 41050,4,"classcount"; 41052,4,"FLASHBOARD"; 41053,4,"<?xml version="1.0" encoding="utf-8" ?><flashboard name="classcount" gui
+   objectdata     :+d="{2F38D0E6-E95B-4F72-88B9-D825DC126B67}" title="Number of Classes by City" fbtype="0" charttype="2" color=""><options drilldown="1" customize="0" displaytype="0"/><legend show="0" title="" placement="0"/><axis orientation="0"/><x label="Categories by City" showgrid="0"/><y label="Num
+   objectdata     :+ber of Classes" showgrid="0" auto="1" min="0.000000" max="10.000000"/><timeframe show="0" type="0" startdate="0" enddate="0"/><variable name="classcount" guid="{0101A3DE-336E-4CB5-B9B0-A37131A916CA}" enable="1" label="" color="LHFF6600FFFFFF" style="0"/><advancedlegendprops legendoutli
+   objectdata     :+newidth="1" legenditemcolor="000000" legendbackgroundcolor="FFFFFF" legendtitlecolor="000000" legendtitlealignment="0" legendtitlefont="0-10-SansSerif" legenditemfont="0-10-SanSerif" legendoutlinecolor="000000"/><advancedaxisprops xoffset3d="10" yaxislabelcolor="000000" yaxistickslabel
+   objectdata     :+color="000000" wallcolor3d="808080" showxaxis="1" xaxistickscolor="000000" showyaxis="1" xaxislabelfont="0-10-SansSerif" yaxisshowtickslabel="1" xaxisgridlinecolor="C0C0C0" xaxistickslabelcolor="000000" xaxisshowtickslabel="1" xaxislabelcolor="000000" yaxislabelfont="0-10-SansSerif" xa
+   objectdata     :+xistickslabelfont="0-10-SansSerif" xaxistime="0" yaxistickslabelfont="0-10-SansSerif" xaxisshowticks="1" yaxisgridlinecolor="C0C0C0" yoffset3d="10" yaxisshowticks="1" yaxistickscolor="000000"/><advancedchartprops topgbotheralias="Other" valuelabelfont="0-10-SansSerif" outlinelegendkeys
+   objectdata     :+="1" charttitleplacement="0" displaytable="0" legendborderwidth="10" timeformat="1" topgbothercolor="000000" showcharttitle="1" chartborderwidth="5" showvalues="1" valuelabelcolor="0" fgtransparency="1.0" foregroundcolor="000000" topgbnum="0" advcolorpalette="0" charttitlealignment="1"
+   objectdata     :+ chartoutlinecolor="0" graphbackgroundtransparency="1.0" graphbackgroundcolor="FFFFFF" charttitlecolor="000000" charttitlefont="1-12-SansSerif" maxbarwidth="2147483647" chartoutlinewidth="1" display3d="1"/></flashboard>"; 61000,4,"0;"; 61001,4,"Sample";
+end

@@ -1,0 +1,290 @@
+char-set: UTF-8
+#
+#  File exported Fri Oct 11 12:20:20 2019
+#
+begin filter
+   name           : FO:JD_902_ztmpAction_M_CG014(OAR-Closed
+   timestamp      : 1256095465
+   owner          : npandey
+   last-changed   : admin
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 902
+   wk-conn-type   : 1
+   schema-name    : FO:JobDetail
+   export-version : 11
+   filter-query   : 1\4\1\99\536870921\2\6\23\4\1\99\536870973\2\6\2\
+   action {
+      call-server : @
+      call-guide  : FO:JD_Guide014_CloseJob
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+   errhandler-opt : 0
+end
+begin filter
+   name           : FO:JD_900_ztmpAction_CountJobNotes_SM_CG03Goto999
+   timestamp      : 1174213095
+   owner          : johnh
+   last-changed   : admin
+   filter-op      : 6
+   enable         : 1
+   filter-order   : 900
+   wk-conn-type   : 1
+   schema-name    : FO:JobDetail
+   export-version : 11
+   filter-query   : 4\1\99\536870921\2\6\11\
+   action {
+      call-server : @
+      call-guide  : FO:JD_Guide03_CountJobNotes
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      goto action : 2\999
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+   errhandler-opt : 0
+end
+begin filter
+   name           : FO:JD_900_ztmpAction_M_CG01(AttempttoSubmit
+   timestamp      : 1256095465
+   owner          : rashford
+   last-changed   : admin
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 900
+   wk-conn-type   : 1
+   schema-name    : FO:JobDetail
+   export-version : 11
+   filter-query   : 4\1\99\536870921\2\6\3\
+   action {
+      call-server : @
+      call-guide  : FO:JD_Guide01_AttemptToSubmit
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      goto action : 2\901
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+   errhandler-opt : 0
+end
+begin filter
+   name           : FO:JD_910_ztmpAction_CopyJobStandard_M_CG02Goto999
+   timestamp      : 1174213096
+   owner          : rashford
+   last-changed   : admin
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 900
+   wk-conn-type   : 1
+   schema-name    : FO:JobDetail
+   export-version : 11
+   filter-query   : 4\1\99\536870921\2\6\10\
+   action {
+      call-server : @
+      call-guide  : FO:JD_Guide02_CopyJobStandard
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   action {
+      goto action : 2\999
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+   errhandler-opt : 0
+end
+begin filter
+   name           : FO:JD_900_JobAudit_S_SFPF(CopiedFromJob_Technician/Branch`!
+   timestamp      : 1174213095
+   owner          : rashford
+   last-changed   : admin
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 900
+   wk-conn-type   : 1
+   schema-name    : FO:JobDetail
+   export-version : 11
+   filter-query   : 4\6\99\536871269\2\0\
+   action {
+      set-field   : 0\536870919\102\1\@\10\FO:JobTask\1\536870976\1\4\1\1\536870934\99\536871269\4\1\1\536870935\2\6\0\2\3\
+      set-field   : 1\536870922\102\1\@\10\FO:JobTask\1\536870932\1\4\1\1\536870934\99\536871269\4\1\1\536870935\2\6\0\2\3\
+      set-field   : 2\536871026\102\1\@\10\FO:JobTask\1\536870917\1\4\1\1\536870934\99\536871269\4\1\1\536870935\2\6\0\2\3\
+      set-field   : 3\536870966\102\1\@\10\FO:JobTask\1\536870956\1\4\1\1\536870934\99\536871269\4\1\1\536870935\2\6\0\2\3\
+   }
+   action {
+      set-field   : 0\536871054\102\1\@\31\FO:LanguageConfigurationMessage\1\536870913\1\4\1\1\536870914\2\6\127\4\1\1\8\99\536870992\2\3\
+   }
+   action {
+      push-field  : 0\1\@\11\FO:JobAudit\1\536871040\0\4\6\101\1\1\
+      push-field  : 1\1\@\11\FO:JobAudit\1\536870959\0\4\6\101\6\21\
+      push-field  : 2\1\@\11\FO:JobAudit\1\536871076\0\4\6\102\1\@\1\@\1\536871076\0\1\4\
+      push-field  : 3\1\@\11\FO:JobAudit\1\536870925\0\4\6\104\1\104\1\104\1\105\20\1\102\1\@\1\@\1\536871054\0\1\4\101\4\1\ \104\1\102\1\@\1\@\1\536870919\0\1\4\101\4\2\, \
+      push-field  : 3\102\1\@\1\@\1\536870922\0\1\4\
+   }
+   action {
+      push-field  : 0\1\@\11\FO:JobAudit\1\536870925\0\4\6\104\1\104\1\104\1\101\4\20\Original Branch ID: \102\1\@\1\@\1\536870966\0\1\4\101\4\2\, \102\1\@\1\@\1\536871026\0
+      push-field  : 0\\1\4\
+      push-field  : 1\1\@\11\FO:JobAudit\1\536870959\0\4\6\101\6\22\
+      push-field  : 2\1\@\11\FO:JobAudit\1\2\0\4\6\101\1\1\
+      push-field  : 3\1\@\11\FO:JobAudit\1\536871076\0\4\6\102\1\@\1\@\1\536871076\0\1\4\
+   }
+   action {
+      push-field  : 0\1\@\11\FO:JobAudit\1\536871040\0\4\6\102\1\@\1\@\1\536871040\0\1\4\
+      push-field  : 1\1\@\11\FO:JobAudit\1\536871076\0\4\6\102\1\@\1\@\1\536871076\0\1\4\
+      push-field  : 2\1\@\11\FO:JobAudit\1\7\0\4\6\101\6\0\
+      push-field  : 3\1\@\11\FO:JobAudit\1\536870959\0\4\6\101\6\20\
+      push-field  : 4\1\@\11\FO:JobAudit\1\536870962\0\4\6\102\1\@\1\@\1\1\0\1\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+   errhandler-opt : 0
+end
+begin filter
+   name           : FO:JD_901_ztmpAction_M_CG013(OAR-Submit
+   timestamp      : 1256095465
+   owner          : npandey
+   last-changed   : admin
+   filter-op      : 2
+   enable         : 1
+   filter-order   : 901
+   wk-conn-type   : 1
+   schema-name    : FO:JobDetail
+   export-version : 11
+   filter-query   : 1\4\1\99\536870921\2\6\23\4\1\99\536870973\2\6\1\
+   action {
+      call-server : @
+      call-guide  : FO:JD_Guide013_SubmitJob
+      call-mode   : 0
+      call-tableid: 0
+      call-input  : 0\
+      call-output : 0\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+   errhandler-opt : 0
+end
+begin filter
+   name           : FO:JD_900_JobAudit_S_PF(Owner`!
+   timestamp      : 1174213095
+   owner          : rashford
+   last-changed   : admin
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 900
+   wk-conn-type   : 1
+   schema-name    : FO:JobDetail
+   export-version : 11
+   filter-query   : 2\2\2\4\6\51\601000052\99\601000052\4\6\51\601000051\99\601000051\4\6\51\601000053\99\601000053\4\6\51\601000050\99\601000050\
+   action {
+      push-field  : 0\1\@\22\FO:EnumValueTranslator\1\536870913\0\4\6\101\1\5\
+      push-field  : 1\1\@\22\FO:EnumValueTranslator\1\536870922\0\4\6\102\1\@\1\@\1\601000052\0\1\4\
+      push-field  : 2\1\@\22\FO:EnumValueTranslator\1\536870915\0\4\6\101\4\20\customer_owner_title\
+      push-field  : 3\1\@\22\FO:EnumValueTranslator\1\536870916\0\4\6\101\2\601000052\
+      push-field  : 4\1\@\22\FO:EnumValueTranslator\1\536870919\0\4\6\101\1\21\
+      push-field  : 5\1\@\22\FO:EnumValueTranslator\1\536870925\0\4\6\102\1\@\1\@\1\536871076\0\1\4\
+   }
+   action {
+      set-field   : 0\536870919\102\1\@\22\FO:EnumValueTranslator\1\536870920\1\4\1\99\536871076\1\536870925\4\1\1\536870916\2\2\601000052\2\3\
+   }
+   action {
+      set-field   : 0\536871054\102\1\@\31\FO:LanguageConfigurationMessage\1\536870913\1\1\4\1\1\536870921\2\2\134\4\1\1\536870915\99\601000031\4\1\1\8\99\536870992\2\3\
+   }
+   action {
+      push-field  : 0\1\@\11\FO:JobAudit\1\536870958\0\4\6\102\1\@\1\@\1\536871295\0\1\4\
+      push-field  : 1\1\@\11\FO:JobAudit\1\2\0\4\6\101\1\1\
+      push-field  : 2\1\@\11\FO:JobAudit\1\536870959\0\4\6\101\6\8\
+      push-field  : 3\1\@\11\FO:JobAudit\1\536871076\0\4\6\102\1\@\1\@\1\536871076\0\1\4\
+      push-field  : 4\1\@\11\FO:JobAudit\1\536870924\0\4\6\102\1\@\1\@\1\536870924\0\1\4\
+      push-field  : 5\1\@\11\FO:JobAudit\1\536870925\0\4\6\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\105\20\1\102\1\@\1\@\1\536871054\0\1\4\101\4\1\ \102\1\@\1\@
+      push-field  : 5\\1\536870919\0\1\4\101\4\1\ \102\1\@\1\@\1\601000050\0\1\4\101\4\1\ \102\1\@\1\@\1\601000051\0\1\4\101\4\1\(\102\1\@\1\@\1\601000053\0\1\4\101\4\1\)\
+      push-field  : 6\1\@\11\FO:JobAudit\1\536871040\0\4\6\102\1\@\1\@\1\536871040\0\1\4\
+   }
+   action {
+      push-field  : 0\1\@\22\FO:EnumValueTranslator\1\536870926\4\1\99\536871076\1\536870925\3\5\101\6\0\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+   errhandler-opt : 0
+end
+begin filter
+   name           : FO:JD_910_JobAudit_S_PF(PushJobID
+   timestamp      : 1174213096
+   owner          : rashford
+   last-changed   : admin
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 910
+   wk-conn-type   : 1
+   schema-name    : FO:JobDetail
+   export-version : 11
+   action {
+      push-field  : 0\1\@\11\FO:JobAudit\1\8\4\1\99\536871076\1\536871076\3\5\102\1\@\1\@\1\1\0\1\4\
+      push-field  : 1\1\@\11\FO:JobAudit\1\536871076\4\1\99\536871076\1\536871076\3\5\101\0\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+   errhandler-opt : 0
+end
+begin filter
+   name           : FO:JD_900_JobAudit_S_PF(Status`!
+   timestamp      : 1174213095
+   owner          : rashford
+   last-changed   : admin
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 900
+   wk-conn-type   : 1
+   schema-name    : FO:JobDetail
+   export-version : 11
+   filter-query   : 4\6\99\7\51\7\
+   action {
+      push-field  : 0\1\@\11\FO:JobAudit\1\536870913\0\4\6\102\1\@\1\@\1\536870992\0\1\4\
+      push-field  : 1\1\@\11\FO:JobAudit\1\536870958\0\4\6\102\1\@\1\@\1\536871295\0\1\4\
+      push-field  : 2\1\@\11\FO:JobAudit\1\536870924\0\4\6\102\1\@\1\@\1\536870924\0\1\4\
+      push-field  : 3\1\@\11\FO:JobAudit\1\2\0\4\6\101\1\1\
+      push-field  : 4\1\@\11\FO:JobAudit\1\536870961\0\4\6\102\1\@\1\@\1\7\0\1\4\
+      push-field  : 5\1\@\11\FO:JobAudit\1\536871040\0\4\6\102\1\@\1\@\1\536871040\0\1\4\
+      push-field  : 6\1\@\11\FO:JobAudit\1\536871076\0\4\6\102\1\@\1\@\1\536871076\0\1\4\
+      push-field  : 7\1\@\11\FO:JobAudit\1\536870930\0\4\6\102\1\@\1\@\1\601000031\0\1\4\
+      push-field  : 8\1\@\11\FO:JobAudit\1\536870914\0\4\6\102\1\@\1\@\1\7\0\1\4\
+      push-field  : 9\1\@\11\FO:JobAudit\1\536870959\0\4\6\101\6\1\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+   errhandler-opt : 0
+end
+begin filter
+   name           : FO:JD_900_JobAudit_S_PF(FittingAddress`!
+   timestamp      : 1174213094
+   owner          : rashford
+   last-changed   : admin
+   filter-op      : 4
+   enable         : 1
+   filter-order   : 900
+   wk-conn-type   : 1
+   schema-name    : FO:JobDetail
+   export-version : 11
+   filter-query   : 2\2\2\2\2\4\6\51\601000038\99\601000038\4\6\51\536870931\99\536870931\4\6\51\536870955\99\536870955\4\6\51\601000069\99\601000069\4\6\51\601000067\99\60
+   filter-query   : 1000067\4\6\51\601000066\99\601000066\
+   action {
+      set-field   : 0\536871054\102\1\@\31\FO:LanguageConfigurationMessage\1\536870913\1\1\4\1\1\536870921\2\2\135\4\1\1\536870915\99\601000031\4\1\1\8\99\536870992\2\3\
+   }
+   action {
+      push-field  : 0\1\@\11\FO:JobAudit\1\536871040\0\4\6\102\1\@\1\@\1\536871040\0\1\4\
+      push-field  : 1\1\@\11\FO:JobAudit\1\536870958\0\4\6\102\1\@\1\@\1\536871295\0\1\4\
+      push-field  : 2\1\@\11\FO:JobAudit\1\2\0\4\6\101\1\1\
+      push-field  : 3\1\@\11\FO:JobAudit\1\536870959\0\4\6\101\6\2\
+      push-field  : 4\1\@\11\FO:JobAudit\1\536871076\0\4\6\102\1\@\1\@\1\536871076\0\1\4\
+      push-field  : 5\1\@\11\FO:JobAudit\1\536870924\0\4\6\102\1\@\1\@\1\536870924\0\1\4\
+      push-field  : 6\1\@\11\FO:JobAudit\1\536870925\0\4\6\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\104\1\105\20\1\102\1\@\1\@\1\536871054\0\1\4\101
+      push-field  : 6\\4\1\ \102\1\@\1\@\1\601000038\0\1\4\101\4\2\, \102\1\@\1\@\1\536870931\0\1\4\101\4\2\, \102\1\@\1\@\1\536870955\0\1\4\101\4\2\, \102\1\@\1\@\1\6010000
+      push-field  : 6\69\0\1\4\101\4\2\, \102\1\@\1\@\1\601000067\0\1\4\101\4\2\, \102\1\@\1\@\1\601000066\0\1\4\
+   }
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+   errhandler-opt : 0
+end

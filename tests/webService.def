@@ -1,0 +1,1391 @@
+char-set: UTF-8
+#
+#  File exported Fri Oct 11 12:24:14 2019
+#
+begin container
+   name           : WS_Basket_AddProduct_v2
+   type           : 5
+   num-references : 7
+   timestamp      : 1297587584
+   owner          : jhaddock
+   owning-obj     : 1\2\20\WS:GenericWebService\
+   last-changed   : arapiuser
+   export-version : 11
+   permission     : 0\1
+   label          : Basket_AddProduct
+   description    : Basket_AddProduct
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\224\	<wsProperties>		<wsType name="document - literal"/>		<xmlSchemaSource name="embedded"/>		<externalSchema name="C:\jfoss\work\Belron\CRs\CR 
+   value          : 1167 Webservices\XSDs\Complete\Basket_AddProduct_v2.xsd"/>	</wsProperties>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\303\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="Basket_AddProduct" type="create">		<inputMapping na
+   value          : me="InputMapping" topLevelElement="Basket_AddProduct"/>		<outputMapping name="OutputMapping" topLevelElement="Basket_AddProductResponse"/>	</operati
+   value          : on>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\2493\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="OutputMapping" arDocVersion="8" schemaSource="imp
+   value          : orted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" 
+   value          : complexType="urn:WS_Basket_AddProduct_v2:RemedyOutput" targetNamespace="urn:WS_Basket_AddProduct_v2">				<element name="ReturnCode" dataType="string" 
+   value          : targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870975"/>				</element>				<element name="ReturnMessage" dataType="
+   value          : string" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870976"/>				</element>				<element name="OrderID" dataType
+   value          : ="string" nillable="true" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870933"/>				</element>				<element name=
+   value          : "ArticleID" dataType="int" nillable="true" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870943"/>				</element>	
+   value          : 			<element name="SalesCode" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870934"/
+   value          : >				</element>				<element name="StockCode" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping ar
+   value          : FieldId="536870935"/>				</element>				<element name="Description" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_AddProduct_v2">
+   value          : 					<fieldMapping arFieldId="536870936"/>				</element>				<element name="Quantity" dataType="int" nillable="true" targetNamespace="urn:WS_Basket
+   value          : _AddProduct_v2">					<fieldMapping arFieldId="536870944"/>				</element>				<element name="CustomerJobNumber" dataType="string" nillable="true" ta
+   value          : rgetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870937"/>				</element>				<element name="NetPrice" dataType="decimal
+   value          : " nillable="true" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870946"/>				</element>				<element name="Availab
+   value          : leFlag" dataType="int" nillable="true" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870945"/>				</element>				<
+   value          : element name="BasketLineID" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870938"/>
+   value          : 				</element>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\2071\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="InputMapping" arDocVersion="8" schemaSource="impo
+   value          : rted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" c
+   value          : omplexType="urn:WS_Basket_AddProduct_v2:RemedyInput" targetNamespace="urn:WS_Basket_AddProduct_v2">				<element name="Operation" dataType="string" tar
+   value          : getNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="8"/>				</element>				<element name="SessionID" dataType="string" targetN
+   value          : amespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870965"/>				</element>				<element name="Username" dataType="string" targ
+   value          : etNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870971"/>				</element>				<element name="BasketLineID" dataType="strin
+   value          : g" nillable="true" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870917"/>				</element>				<element name="Articl
+   value          : eID" dataType="int" nillable="true" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870927"/>				</element>				<ele
+   value          : ment name="SalesCode" dataType="string" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870918"/>				</element>				
+   value          : <element name="Quantity" dataType="int" nillable="true" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="536870928"/>				
+   value          : </element>				<element name="OrderID" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping arFieldId="
+   value          : 536870919"/>				</element>				<element name="CustomerJobNumber" dataType="string" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fieldMapping
+   value          :  arFieldId="536870920"/>				</element>				<element name="SourceBranchID" dataType="string" targetNamespace="urn:WS_Basket_AddProduct_v2">					<fie
+   value          : ldMapping arFieldId="536870921"/>				</element>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\5249\<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions targetNamespace="urn:WS_Basket_AddProduct_v2" xmlns="http://schemas.xmlsoap.org/wsdl/" 
+   value          : xmlns:ns0="urn:WS_Basket_AddProduct_v2" xmlns:s="urn:WS_Basket_AddProduct_v2" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://s
+   value          : chemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <wsdl:types>  <xsd:sc
+   value          : hema elementFormDefault="qualified" targetNamespace="urn:WS_Basket_AddProduct_v2">   <xsd:element name="Basket_AddProduct" type="ns0:RemedyInput"/> 
+   value          :   <xsd:element name="Basket_AddProductResponse" type="ns0:RemedyOutput"/>   <xsd:element name="AuthenticationInfo" type="s:AuthenticationInfo"/>   <
+   value          : xsd:complexType name="AuthenticationInfo">    <xsd:sequence>     <xsd:element name="userName" type="xsd:string"/>     <xsd:element name="password"
+   value          :  type="xsd:string"/>     <xsd:element minOccurs="0" name="authentication" type="xsd:string"/>     <xsd:element minOccurs="0" name="locale" type="xsd
+   value          : :string"/>     <xsd:element minOccurs="0" name="timeZone" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>  </xsd:schema>  <xs:sche
+   value          : ma attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:WS_Basket_AddProduct_v2" xmlns="urn:WS_Basket_AddProduct_v2" x
+   value          : mlns:xs="http://www.w3.org/2001/XMLSchema">       <xs:complexType name="RemedyInput">           <xs:sequence>               <xs:elemen
+   value          : t name="Operation" type="xs:string"/>               <xs:element name="SessionID" type="xs:string"/>               <xs:element name="Username
+   value          : " type="xs:string"/>               <xs:element name="BasketLineID" nillable="true" type="xs:string"/>               <xs:element name="Articl
+   value          : eID" nillable="true" type="xs:int"/>               <xs:element name="SalesCode" type="xs:string"/>               <xs:element name="Quantity"
+   value          :  nillable="true" type="xs:int"/>               <xs:element name="OrderID" nillable="true" type="xs:string"/>               <xs:element name=
+   value          : "CustomerJobNumber" type="xs:string"/>               <xs:element name="SourceBranchID" type="xs:string"/>           </xs:sequence>    
+   value          :    </xs:complexType>       <xs:complexType name="RemedyOutput">           <xs:sequence>               <xs:element name="ReturnCode" ty
+   value          : pe="xs:string"/>               <xs:element name="ReturnMessage" type="xs:string"/>               <xs:element name="OrderID" nillable="true" 
+   value          : type="xs:string"/>               <xs:element name="ArticleID" nillable="true" type="xs:int"/>               <xs:element name="SalesCode" nil
+   value          : lable="true" type="xs:string"/>               <xs:element name="StockCode" nillable="true" type="xs:string"/>               <xs:element name
+   value          : ="Description" nillable="true" type="xs:string"/>               <xs:element name="Quantity" nillable="true" type="xs:int"/>               <x
+   value          : s:element name="CustomerJobNumber" nillable="true" type="xs:string"/>               <xs:element name="NetPrice" nillable="true" type="xs:decimal"/
+   value          : >               <xs:element name="AvailableFlag" nillable="true" type="xs:int"/>               <xs:element name="BasketLineID" nillable="tru
+   value          : e" type="xs:string"/>           </xs:sequence>       </xs:complexType>   </xs:schema> </wsdl:types>   <wsdl:message name="Basket
+   value          : _AddProductSoapOut">      <wsdl:part element="ns0:Basket_AddProductResponse" name="parameters"/>   </wsdl:message>   <wsdl:message name="Bas
+   value          : ket_AddProductSoapIn">      <wsdl:part element="ns0:Basket_AddProduct" name="parameters"/>   </wsdl:message>   <wsdl:message name="ARAuthent
+   value          : icate">      <wsdl:part element="ns0:AuthenticationInfo" name="parameters"/>   </wsdl:message>   <wsdl:portType name="WS_Basket_AddProduct_v
+   value          : 2PortType">      <wsdl:operation name="Basket_AddProduct">         <wsdl:input message="ns0:Basket_AddProductSoapIn"/>         <wsdl:output 
+   value          : message="ns0:Basket_AddProductSoapOut"/>      </wsdl:operation>   </wsdl:portType>   <wsdl:binding name="WS_Basket_AddProduct_v2SoapBinding"
+   value          :  type="ns0:WS_Basket_AddProduct_v2PortType">      <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>      <wsdl:o
+   value          : peration name="Basket_AddProduct">         <soap:operation soapAction="urn:WS_Basket_AddProduct_v2/Basket_AddProduct" style="document"/>        
+   value          :  <wsdl:input>            <soap:header message="ns0:ARAuthenticate" part="parameters" use="literal">            </soap:header>            <so
+   value          : ap:body use="literal"/>         </wsdl:input>         <wsdl:output>            <soap:body use="literal"/>         </wsdl:output>    
+   value          :   </wsdl:operation>   </wsdl:binding>   <wsdl:service name="WS_Basket_AddProduct_v2Service">  <wsdl:documentation>Basket_AddProduct  </wsd
+   value          : l:documentation>      <wsdl:port binding="ns0:WS_Basket_AddProduct_v2SoapBinding" name="WS_Basket_AddProduct_v2Soap">         <soap:address loca
+   value          : tion="@LOCATION@"/>      </wsdl:port>   </wsdl:service></wsdl:definitions>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 4\2162\<?xml version="1.0" encoding="windows-1252"?><wsdl:types xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"> <xs:schema attributeFormDefault="unqu
+   value          : alified" elementFormDefault="qualified" targetNamespace="urn:WS_Basket_AddProduct_v2" xmlns="urn:WS_Basket_AddProduct_v2" xmlns:xs="http://www.w3.org/20
+   value          : 01/XMLSchema">    <xs:complexType name="RemedyInput">       <xs:sequence>          <xs:element name="Operation" type="xs:string"/>      
+   value          :     <xs:element name="SessionID" type="xs:string"/>          <xs:element name="Username" type="xs:string"/>          <xs:element name="BasketLin
+   value          : eID" nillable="true" type="xs:string"/>          <xs:element name="ArticleID" nillable="true" type="xs:int"/>          <xs:element name="SalesCo
+   value          : de" type="xs:string"/>          <xs:element name="Quantity" nillable="true" type="xs:int"/>          <xs:element name="OrderID" nillable="true" 
+   value          : type="xs:string"/>          <xs:element name="CustomerJobNumber" type="xs:string"/>          <xs:element name="SourceBranchID" type="xs:string"/
+   value          : >       </xs:sequence>    </xs:complexType>    <xs:complexType name="RemedyOutput">       <xs:sequence>          <xs:element name="R
+   value          : eturnCode" type="xs:string"/>          <xs:element name="ReturnMessage" type="xs:string"/>          <xs:element name="OrderID" nillable="true" t
+   value          : ype="xs:string"/>          <xs:element name="ArticleID" nillable="true" type="xs:int"/>          <xs:element name="SalesCode" nillable="true" ty
+   value          : pe="xs:string"/>          <xs:element name="StockCode" nillable="true" type="xs:string"/>          <xs:element name="Description" nillable="true
+   value          : " type="xs:string"/>          <xs:element name="Quantity" nillable="true" type="xs:int"/>          <xs:element name="CustomerJobNumber" nillable
+   value          : ="true" type="xs:string"/>          <xs:element name="NetPrice" nillable="true" type="xs:decimal"/>          <xs:element name="AvailableFlag" ni
+   value          : llable="true" type="xs:int"/>          <xs:element name="BasketLineID" nillable="true" type="xs:string"/>       </xs:sequence>    </xs:compl
+   value          : exType> </xs:schema></wsdl:types>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\84\http://fomtprd.belronbridge.com:8080/arsys/WSDL/public/foprd/WS_Basket_AddProduct_v2\
+   ref-groups     : 0
+}
+end
+begin container
+   name           : WS_Basket_UpdateProduct_v1
+   type           : 5
+   num-references : 7
+   timestamp      : 1297587584
+   owner          : jhaddock
+   owning-obj     : 1\2\20\WS:GenericWebService\
+   last-changed   : arapiuser
+   export-version : 11
+   permission     : 0\1
+   label          : Basket_UpdateProduct
+   description    : Basket_UpdateProduct
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\227\	<wsProperties>		<wsType name="document - literal"/>		<xmlSchemaSource name="embedded"/>		<externalSchema name="C:\jfoss\work\Belron\CRs\CR 
+   value          : 1167 Webservices\XSDs\Complete\Basket_UpdateProduct_v1.xsd"/>	</wsProperties>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\312\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="Basket_UpdateProduct" type="create">		<inputMapping
+   value          :  name="InputMapping" topLevelElement="Basket_UpdateProduct"/>		<outputMapping name="OutputMapping" topLevelElement="Basket_UpdateProductResponse"/>	
+   value          : </operation>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\2535\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="OutputMapping" arDocVersion="8" schemaSource="imp
+   value          : orted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" 
+   value          : complexType="urn:WS_Basket_UpdateProduct_v1:RemedyOutput" targetNamespace="urn:WS_Basket_UpdateProduct_v1">				<element name="ReturnCode" dataType="st
+   value          : ring" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870975"/>				</element>				<element name="ReturnMessage" d
+   value          : ataType="string" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870976"/>				</element>				<element name="Order
+   value          : ID" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870933"/>				</element>			
+   value          : 	<element name="ArticleID" dataType="int" nillable="true" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870943"/>
+   value          : 				</element>				<element name="SalesCode" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping 
+   value          : arFieldId="536870934"/>				</element>				<element name="StockCode" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_UpdateProduct_v1
+   value          : ">					<fieldMapping arFieldId="536870935"/>				</element>				<element name="Description" dataType="string" nillable="true" targetNamespace="urn:W
+   value          : S_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870936"/>				</element>				<element name="Quantity" dataType="int" nillable="true" tar
+   value          : getNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870944"/>				</element>				<element name="CustomerJobNumber" dataTy
+   value          : pe="string" nillable="true" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870937"/>				</element>				<element 
+   value          : name="NetPrice" dataType="decimal" nillable="true" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870946"/>				</
+   value          : element>				<element name="AvailableFlag" dataType="int" nillable="true" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arField
+   value          : Id="536870945"/>				</element>				<element name="BasketLineID" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_UpdateProduct_v1">
+   value          : 					<fieldMapping arFieldId="536870938"/>				</element>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\2107\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="InputMapping" arDocVersion="8" schemaSource="impo
+   value          : rted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" c
+   value          : omplexType="urn:WS_Basket_UpdateProduct_v1:RemedyInput" targetNamespace="urn:WS_Basket_UpdateProduct_v1">				<element name="Operation" dataType="strin
+   value          : g" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="8"/>				</element>				<element name="SessionID" dataType="string
+   value          : " targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870965"/>				</element>				<element name="Username" dataType="
+   value          : string" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870971"/>				</element>				<element name="BasketLineID" 
+   value          : dataType="string" nillable="true" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870917"/>				</element>				<el
+   value          : ement name="ArticleID" dataType="int" nillable="true" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870927"/>			
+   value          : 	</element>				<element name="SalesCode" dataType="string" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870918"
+   value          : />				</element>				<element name="Quantity" dataType="int" nillable="true" targetNamespace="urn:WS_Basket_UpdateProduct_v1">					<fieldMapping ar
+   value          : FieldId="536870928"/>				</element>				<element name="OrderID" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_UpdateProduct_v1">
+   value          : 					<fieldMapping arFieldId="536870919"/>				</element>				<element name="CustomerJobNumber" dataType="string" targetNamespace="urn:WS_Basket_Updat
+   value          : eProduct_v1">					<fieldMapping arFieldId="536870920"/>				</element>				<element name="SourceBranchID" dataType="string" targetNamespace="urn:WS_
+   value          : Basket_UpdateProduct_v1">					<fieldMapping arFieldId="536870921"/>				</element>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\5324\<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions targetNamespace="urn:WS_Basket_UpdateProduct_v1" xmlns="http://schemas.xmlsoap.org/wsdl
+   value          : /" xmlns:ns0="urn:WS_Basket_UpdateProduct_v1" xmlns:s="urn:WS_Basket_UpdateProduct_v1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc=
+   value          : "http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <wsdl:types>
+   value          :   <xsd:schema elementFormDefault="qualified" targetNamespace="urn:WS_Basket_UpdateProduct_v1">   <xsd:element name="Basket_UpdateProduct" type="ns0:Re
+   value          : medyInput"/>   <xsd:element name="Basket_UpdateProductResponse" type="ns0:RemedyOutput"/>   <xsd:element name="AuthenticationInfo" type="s:Authentic
+   value          : ationInfo"/>   <xsd:complexType name="AuthenticationInfo">    <xsd:sequence>     <xsd:element name="userName" type="xsd:string"/>     <xsd:eleme
+   value          : nt name="password" type="xsd:string"/>     <xsd:element minOccurs="0" name="authentication" type="xsd:string"/>     <xsd:element minOccurs="0" name=
+   value          : "locale" type="xsd:string"/>     <xsd:element minOccurs="0" name="timeZone" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>  </xsd:s
+   value          : chema>  <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:WS_Basket_UpdateProduct_v1" xmlns="urn:WS_Ba
+   value          : sket_UpdateProduct_v1" xmlns:xs="http://www.w3.org/2001/XMLSchema">       <xs:complexType name="RemedyInput">           <xs:sequence> 
+   value          :               <xs:element name="Operation" type="xs:string"/>               <xs:element name="SessionID" type="xs:string"/>               <x
+   value          : s:element name="Username" type="xs:string"/>               <xs:element name="BasketLineID" nillable="true" type="xs:string"/>               
+   value          : <xs:element name="ArticleID" nillable="true" type="xs:int"/>               <xs:element name="SalesCode" type="xs:string"/>               <xs
+   value          : :element name="Quantity" nillable="true" type="xs:int"/>               <xs:element name="OrderID" nillable="true" type="xs:string"/>        
+   value          :        <xs:element name="CustomerJobNumber" type="xs:string"/>               <xs:element name="SourceBranchID" type="xs:string"/>           
+   value          : </xs:sequence>       </xs:complexType>       <xs:complexType name="RemedyOutput">           <xs:sequence>               <xs:elem
+   value          : ent name="ReturnCode" type="xs:string"/>               <xs:element name="ReturnMessage" type="xs:string"/>               <xs:element name="O
+   value          : rderID" nillable="true" type="xs:string"/>               <xs:element name="ArticleID" nillable="true" type="xs:int"/>               <xs:elem
+   value          : ent name="SalesCode" nillable="true" type="xs:string"/>               <xs:element name="StockCode" nillable="true" type="xs:string"/>       
+   value          :         <xs:element name="Description" nillable="true" type="xs:string"/>               <xs:element name="Quantity" nillable="true" type="xs:int"/
+   value          : >               <xs:element name="CustomerJobNumber" nillable="true" type="xs:string"/>               <xs:element name="NetPrice" nillable="
+   value          : true" type="xs:decimal"/>               <xs:element name="AvailableFlag" nillable="true" type="xs:int"/>               <xs:element name="Bas
+   value          : ketLineID" nillable="true" type="xs:string"/>           </xs:sequence>       </xs:complexType>   </xs:schema> </wsdl:types>   <w
+   value          : sdl:message name="Basket_UpdateProductSoapOut">      <wsdl:part element="ns0:Basket_UpdateProductResponse" name="parameters"/>   </wsdl:message>
+   value          :    <wsdl:message name="ARAuthenticate">      <wsdl:part element="ns0:AuthenticationInfo" name="parameters"/>   </wsdl:message>   <wsdl:m
+   value          : essage name="Basket_UpdateProductSoapIn">      <wsdl:part element="ns0:Basket_UpdateProduct" name="parameters"/>   </wsdl:message>   <wsdl:p
+   value          : ortType name="WS_Basket_UpdateProduct_v1PortType">      <wsdl:operation name="Basket_UpdateProduct">         <wsdl:input message="ns0:Basket_Upd
+   value          : ateProductSoapIn"/>         <wsdl:output message="ns0:Basket_UpdateProductSoapOut"/>      </wsdl:operation>   </wsdl:portType>   <wsdl:b
+   value          : inding name="WS_Basket_UpdateProduct_v1SoapBinding" type="ns0:WS_Basket_UpdateProduct_v1PortType">      <soap:binding style="document" transport="ht
+   value          : tp://schemas.xmlsoap.org/soap/http"/>      <wsdl:operation name="Basket_UpdateProduct">         <soap:operation soapAction="urn:WS_Basket_Update
+   value          : Product_v1/Basket_UpdateProduct" style="document"/>         <wsdl:input>            <soap:header message="ns0:ARAuthenticate" part="parameters" 
+   value          : use="literal">            </soap:header>            <soap:body use="literal"/>         </wsdl:input>         <wsdl:output>          
+   value          :   <soap:body use="literal"/>         </wsdl:output>      </wsdl:operation>   </wsdl:binding>   <wsdl:service name="WS_Basket_UpdateProdu
+   value          : ct_v1Service">  <wsdl:documentation>Basket_UpdateProduct  </wsdl:documentation>      <wsdl:port binding="ns0:WS_Basket_UpdateProduct_v1SoapBin
+   value          : ding" name="WS_Basket_UpdateProduct_v1Soap">         <soap:address location="@LOCATION@"/>      </wsdl:port>   </wsdl:service></wsdl:def
+   value          : initions>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 4\2168\<?xml version="1.0" encoding="windows-1252"?><wsdl:types xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"> <xs:schema attributeFormDefault="unqu
+   value          : alified" elementFormDefault="qualified" targetNamespace="urn:WS_Basket_UpdateProduct_v1" xmlns="urn:WS_Basket_UpdateProduct_v1" xmlns:xs="http://www.w3.
+   value          : org/2001/XMLSchema">    <xs:complexType name="RemedyInput">       <xs:sequence>          <xs:element name="Operation" type="xs:string"/>
+   value          :           <xs:element name="SessionID" type="xs:string"/>          <xs:element name="Username" type="xs:string"/>          <xs:element name="Bas
+   value          : ketLineID" nillable="true" type="xs:string"/>          <xs:element name="ArticleID" nillable="true" type="xs:int"/>          <xs:element name="S
+   value          : alesCode" type="xs:string"/>          <xs:element name="Quantity" nillable="true" type="xs:int"/>          <xs:element name="OrderID" nillable="
+   value          : true" type="xs:string"/>          <xs:element name="CustomerJobNumber" type="xs:string"/>          <xs:element name="SourceBranchID" type="xs:st
+   value          : ring"/>       </xs:sequence>    </xs:complexType>    <xs:complexType name="RemedyOutput">       <xs:sequence>          <xs:element n
+   value          : ame="ReturnCode" type="xs:string"/>          <xs:element name="ReturnMessage" type="xs:string"/>          <xs:element name="OrderID" nillable="t
+   value          : rue" type="xs:string"/>          <xs:element name="ArticleID" nillable="true" type="xs:int"/>          <xs:element name="SalesCode" nillable="tr
+   value          : ue" type="xs:string"/>          <xs:element name="StockCode" nillable="true" type="xs:string"/>          <xs:element name="Description" nillable
+   value          : ="true" type="xs:string"/>          <xs:element name="Quantity" nillable="true" type="xs:int"/>          <xs:element name="CustomerJobNumber" ni
+   value          : llable="true" type="xs:string"/>          <xs:element name="NetPrice" nillable="true" type="xs:decimal"/>          <xs:element name="AvailableFl
+   value          : ag" nillable="true" type="xs:int"/>          <xs:element name="BasketLineID" nillable="true" type="xs:string"/>       </xs:sequence>    </xs
+   value          : :complexType> </xs:schema></wsdl:types>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\87\http://fomtprd.belronbridge.com:8080/arsys/WSDL/public/foprd/WS_Basket_UpdateProduct_v1\
+   ref-groups     : 0
+}
+end
+begin container
+   name           : WS_DragDropTaskUpdate_v1
+   type           : 5
+   num-references : 7
+   timestamp      : 1395804674
+   owner          : AVARANASI_FR
+   owning-obj     : 1\2\20\WS:GenericWebService\
+   last-changed   : admin
+   export-version : 11
+   permission     : 0\1
+   label          : Drag and Drop Task Update
+   description    : This Webservice will be used to update Tasks in Remedy based on the updates received from Drap and Drop Application
+   change-diary   : 1384914042admin10/10/2013 11:05:57 AVARANASI_FR : PR1837 -New Webservice is developed as part of R0398A – Drag and Drop interface to Remedy.
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\208\<?xml version="1.0"?><portProperties name="WS_DragDropTaskUpdate_v1"><portType name=""/><xmlSchemaSource name="embedded"/><externalSchema name=""
+   value          : /><portName name="WS_DragDropTaskUpdate_v1"/></portProperties>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\516\<?xml version="1.0" encoding="UTF-8"?><operation name="DragDropTaskUpdate" type="create">    <arOptions>        <setOptions>            <type>
+   value          : setFirst</type>            <documentType>full</documentType>        </setOptions>    </arOptions>    <inputMapping name="InputMapping1"        name
+   value          : space="WS_DragDropTaskUpdate_v1" topLevelElement="DragDropTaskUpdate"/>    <outputMapping name="OutputMapping1"        namespace="WS_DragDropTaskUpdat
+   value          : e_v1" topLevelElement="DragDropTaskUpdateResponse"/></operation>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 4\0\\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\1032\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="OutputMapping1" schema
+   value          : Source="generated">    <formMapping>        <form distinguishingKeyId="1" foreignKeyId="1"            formName="WS:GenericWebService" primaryKeyId="1
+   value          : "/>        <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:WS_DragDropTaskUpda
+   value          : te_v1">            <element dataType="string" default="" maxOccurs="1"                minOccurs="1" name="ReturnCode" nillable="false" xmlType="false"
+   value          : >                <fieldMapping arFieldId="536870975" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string
+   value          : " default="" maxOccurs="1"                minOccurs="1" name="ReturnMessage" nillable="false" xmlType="false">                <fieldMapping arFieldId=
+   value          : "536870976" arFieldPart="" defaultAttachName=""/>            </element>        </element>    </formMapping></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\5896\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="InputMapping1" schemaS
+   value          : ource="generated">    <formMapping>        <form distinguishingKeyId="1" foreignKeyId="1"            formName="WS:GenericWebService" primaryKeyId="1"
+   value          : />        <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:WS_DragDropTaskUpdat
+   value          : e_v1">            <element dataType="string" maxOccurs="1" minOccurs="1"                name="Operation" nillable="false" xmlType="false">           
+   value          :      <fieldMapping arFieldId="8" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" minOc
+   value          : curs="1"                name="RemedyID" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870923" arFieldPart="" defaultAtt
+   value          : achName=""/>            </element>            <element dataType="string" maxOccurs="1" minOccurs="1"                name="JobID" nillable="false" xml
+   value          : Type="false">                <fieldMapping arFieldId="536870917" arFieldPart="" defaultAttachName=""/>            </element>            <element data
+   value          : Type="string" maxOccurs="1" minOccurs="1"                name="TaskID" nillable="false" xmlType="false">                <fieldMapping arFieldId="53687
+   value          : 0918" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" minOccurs="1"                na
+   value          : me="TechnicianID" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870919" arFieldPart="" defaultAttachName=""/>          
+   value          :   </element>            <element dataType="dateTime" maxOccurs="1" minOccurs="1"                name="AppointmentStart" nillable="false" xmlType="fals
+   value          : e">                <fieldMapping arFieldId="536870981" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="int"
+   value          :  maxOccurs="1" minOccurs="1"                name="Duration" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870927" arFie
+   value          : ldPart="" defaultAttachName=""/>            </element>            <element dataType="int" maxOccurs="1" minOccurs="1"                name="DegOfDiff"
+   value          :  nillable="false" xmlType="false">                <fieldMapping arFieldId="536870928" arFieldPart="" defaultAttachName=""/>            </element>    
+   value          :         <element dataType="string" maxOccurs="1" minOccurs="1"                name="BranchID" nillable="false" xmlType="false">                <fieldM
+   value          : apping arFieldId="536870920" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="int" maxOccurs="1" minOccurs="1
+   value          : "                name="JobLocation" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870929" arFieldPart="" defaultAttachN
+   value          : ame=""/>            </element>            <element dataType="string" maxOccurs="1" minOccurs="1"                name="LinkedTaskID" nillable="false" 
+   value          : xmlType="false">                <fieldMapping arFieldId="536870921" arFieldPart="" defaultAttachName=""/>            </element>            <element d
+   value          : ataType="dateTime" maxOccurs="1" minOccurs="1"                name="LTAppointmentStart" nillable="false" xmlType="false">                <fieldMapping
+   value          :  arFieldId="536870983" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="int" maxOccurs="1" minOccurs="1"    
+   value          :             name="LTDuration" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870996" arFieldPart="" defaultAttachName=""/
+   value          : >            </element>            <element dataType="string" maxOccurs="1" minOccurs="1"                name="LTTechnicianID" nillable="false" xmlTy
+   value          : pe="false">                <fieldMapping arFieldId="536870922" arFieldPart="" defaultAttachName=""/>            </element>            <element dataTy
+   value          : pe="string" default="" maxOccurs="1"                minOccurs="1" name="ForceChanges_HA" nillable="false" xmlType="false">                <fieldMappin
+   value          : g arFieldId="536871018" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1"   
+   value          :              minOccurs="1" name="ForceChanges_HA_LT" nillable="false" xmlType="false">                <fieldMapping arFieldId="536871019" arFieldPart="
+   value          : " defaultAttachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1"                minOccurs="1" name="Allo
+   value          : cationType" nillable="false" xmlType="false">                <fieldMapping arFieldId="536871020" arFieldPart="" defaultAttachName=""/>            </el
+   value          : ement>            <element dataType="string" default="" maxOccurs="1"                minOccurs="1" name="AllocationType_LT" nillable="false" xmlType="
+   value          : false">                <fieldMapping arFieldId="536871021" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="
+   value          : string" default="" maxOccurs="1"                minOccurs="1" name="ForceApptOutsideAvail"                nillable="false" xmlType="false">          
+   value          :       <fieldMapping arFieldId="536871022" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="dateTime" default=
+   value          : "" maxOccurs="1"                minOccurs="1" name="CustAvail_StartDateTime"                nillable="false" xmlType="false">                <fieldMa
+   value          : pping arFieldId="536871016" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="dateTime" default="" maxOccurs="
+   value          : 1"                minOccurs="1" name="CustAvail_EndDateTime"                nillable="false" xmlType="false">                <fieldMapping arFieldId=
+   value          : "536871017" arFieldPart="" defaultAttachName=""/>            </element>        </element>    </formMapping></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\4699\<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions targetNamespace="urn:WS_DragDropTaskUpdate_v1" xmlns:s0="urn:WS_DragDropTaskUpdate_v1" 
+   value          : xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl
+   value          : /" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <wsdl:types>  <xsd:schema elementFormDefault="qualified" targetNamespace="urn:WS_DragDropTaskUpdate
+   value          : _v1">   <xsd:element name="DragDropTaskUpdate" type="s0:InputMapping1"/>   <xsd:complexType name="InputMapping1">    <xsd:sequence>     <xsd:ele
+   value          : ment name="Operation" type="xsd:string"/>     <xsd:element name="RemedyID" type="xsd:string"/>     <xsd:element name="JobID" type="xsd:string"/>  
+   value          :    <xsd:element name="TaskID" type="xsd:string"/>     <xsd:element name="TechnicianID" type="xsd:string"/>     <xsd:element name="AppointmentStart" 
+   value          : type="xsd:dateTime"/>     <xsd:element name="Duration" type="xsd:int"/>     <xsd:element name="DegOfDiff" type="xsd:int"/>     <xsd:element name="
+   value          : BranchID" type="xsd:string"/>     <xsd:element name="JobLocation" type="xsd:int"/>     <xsd:element name="LinkedTaskID" type="xsd:string"/>     <x
+   value          : sd:element name="LTAppointmentStart" type="xsd:dateTime"/>     <xsd:element name="LTDuration" type="xsd:int"/>     <xsd:element name="LTTechnicianID
+   value          : " type="xsd:string"/>     <xsd:element name="ForceChanges_HA" type="xsd:string"/>     <xsd:element name="ForceChanges_HA_LT" type="xsd:string"/>  
+   value          :    <xsd:element name="AllocationType" type="xsd:string"/>     <xsd:element name="AllocationType_LT" type="xsd:string"/>     <xsd:element name="Force
+   value          : ApptOutsideAvail" type="xsd:string"/>     <xsd:element name="CustAvail_StartDateTime" type="xsd:dateTime"/>     <xsd:element name="CustAvail_EndDate
+   value          : Time" type="xsd:dateTime"/>    </xsd:sequence>   </xsd:complexType>   <xsd:element name="DragDropTaskUpdateResponse" type="s0:OutputMapping1"/> 
+   value          :   <xsd:complexType name="OutputMapping1">    <xsd:sequence>     <xsd:element name="ReturnCode" type="xsd:string"/>     <xsd:element name="ReturnMe
+   value          : ssage" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>   <xsd:element name="AuthenticationInfo" type="s0:AuthenticationInfo"/>   <xs
+   value          : d:complexType name="AuthenticationInfo">    <xsd:sequence>     <xsd:element name="userName" type="xsd:string"/>     <xsd:element name="password" t
+   value          : ype="xsd:string"/>     <xsd:element minOccurs="0" name="authentication" type="xsd:string"/>     <xsd:element minOccurs="0" name="locale" type="xsd:s
+   value          : tring"/>     <xsd:element minOccurs="0" name="timeZone" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>  </xsd:schema> </wsdl:type
+   value          : s>   <wsdl:message name="DragDropTaskUpdateSoapIn">      <wsdl:part element="s0:DragDropTaskUpdate" name="parameters">      </wsdl:part>   <
+   value          : /wsdl:message>   <wsdl:message name="DragDropTaskUpdateSoapOut">      <wsdl:part element="s0:DragDropTaskUpdateResponse" name="parameters">    
+   value          :   </wsdl:part>   </wsdl:message>   <wsdl:message name="ARAuthenticate">      <wsdl:part element="s0:AuthenticationInfo" name="parameters">  
+   value          :     </wsdl:part>   </wsdl:message>   <wsdl:portType name="WS_DragDropTaskUpdate_v1PortType">      <wsdl:operation name="DragDropTaskUpdate">
+   value          :          <wsdl:input message="s0:DragDropTaskUpdateSoapIn">       </wsdl:input>         <wsdl:output message="s0:DragDropTaskUpdateSoapOut">   
+   value          :     </wsdl:output>      </wsdl:operation>   </wsdl:portType>   <wsdl:binding name="WS_DragDropTaskUpdate_v1SoapBinding" type="s0:WS_DragDropTas
+   value          : kUpdate_v1PortType">      <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>      <wsdl:operation name="DragDropTas
+   value          : kUpdate">         <soap:operation soapAction="urn:WS_DragDropTaskUpdate_v1/DragDropTaskUpdate" style="document"/>         <wsdl:input>         
+   value          :    <soap:header message="s0:ARAuthenticate" part="parameters" use="literal">            </soap:header>            <soap:body use="literal"/>   
+   value          :       </wsdl:input>         <wsdl:output>            <soap:body use="literal"/>         </wsdl:output>      </wsdl:operation>   </wsdl:bi
+   value          : nding>   <wsdl:service name="WS_DragDropTaskUpdate_v1Service">  <wsdl:documentation>This Webservice will be used to update Tasks in Remedy based
+   value          :  on the updates received from Drap and Drop Application  </wsdl:documentation>      <wsdl:port binding="s0:WS_DragDropTaskUpdate_v1SoapBinding" name=
+   value          : "WS_DragDropTaskUpdate_v1Soap">         <soap:address location="@LOCATION@"/>      </wsdl:port>   </wsdl:service></wsdl:definitions>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\85\http://fomtprd.belronbridge.com:8080/arsys/WSDL/public/foprd/WS_DragDropTaskUpdate_v1\
+   ref-groups     : 0
+}
+end
+begin container
+   name           : WS_Get_PricingDetails_v1
+   type           : 5
+   num-references : 7
+   timestamp      : 1297587584
+   owner          : jhaddock
+   owning-obj     : 1\2\20\WS:GenericWebService\
+   last-changed   : arapiuser
+   export-version : 11
+   permission     : 0\1
+   label          : Get_PricingDetails
+   description    : Get_PricingDetails
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\225\	<wsProperties>		<wsType name="document - literal"/>		<xmlSchemaSource name="embedded"/>		<externalSchema name="C:\jfoss\work\Belron\CRs\CR 
+   value          : 1167 Webservices\XSDs\Complete\Get_PricingDetails_v1.xsd"/>	</wsProperties>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\306\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="Get_PricingDetails" type="create">		<inputMapping n
+   value          : ame="InputMapping" topLevelElement="Get_PricingDetails"/>		<outputMapping name="OutputMapping" topLevelElement="Get_PricingDetailsResponse"/>	</oper
+   value          : ation>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\3186\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="OutputMapping" arDocVersion="8" schemaSource="imp
+   value          : orted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" 
+   value          : complexType="urn:WS_Get_PricingDetails_v1:RemedyOutput" targetNamespace="urn:WS_Get_PricingDetails_v1">				<element name="ReturnCode" dataType="string
+   value          : " targetNamespace="urn:WS_Get_PricingDetails_v1">					<fieldMapping arFieldId="536870975"/>				</element>				<element name="ReturnMessage" dataTyp
+   value          : e="string" targetNamespace="urn:WS_Get_PricingDetails_v1">					<fieldMapping arFieldId="536870976"/>				</element>				<element name="NumberOfRows"
+   value          :  dataType="int" targetNamespace="urn:WS_Get_PricingDetails_v1">					<fieldMapping arFieldId="536870943"/>				</element>				<element name="ProductD
+   value          : etails" dataType="" targetNamespace="urn:WS_Get_PricingDetails_v1">					<formMapping>						<form formName="WS:ChildOutput" foreignKeyId="8" primaryK
+   value          : eyId="1" distinguishingKeyId="536870913"/>						<element name="ProductDetail" maxOccurs="unbounded" minOccurs="0" complexType="Product" targetNamespac
+   value          : e="urn:WS_Get_PricingDetails_v1">							<element name="ArticleID" dataType="int" targetNamespace="urn:WS_Get_PricingDetails_v1">								<fieldMappin
+   value          : g arFieldId="536870943"/>							</element>							<element name="SalesCode" dataType="string" targetNamespace="urn:WS_Get_PricingDetails_v1">						
+   value          : 		<fieldMapping arFieldId="536870933"/>							</element>							<element name="Description" dataType="string" targetNamespace="urn:WS_Get_PricingDeta
+   value          : ils_v1">								<fieldMapping arFieldId="536870934"/>							</element>							<element name="Quantity" dataType="int" targetNamespace="urn:WS_Get_P
+   value          : ricingDetails_v1">								<fieldMapping arFieldId="536870944"/>							</element>							<element name="OrderID" dataType="string" targetNamespace="
+   value          : urn:WS_Get_PricingDetails_v1">								<fieldMapping arFieldId="536870935"/>							</element>							<element name="GrossAmount" dataType="decimal" 
+   value          : targetNamespace="urn:WS_Get_PricingDetails_v1">								<fieldMapping arFieldId="536870946"/>							</element>							<element name="Discount" dataT
+   value          : ype="decimal" targetNamespace="urn:WS_Get_PricingDetails_v1">								<fieldMapping arFieldId="536870947"/>							</element>							<element name="U
+   value          : nitPrice" dataType="decimal" targetNamespace="urn:WS_Get_PricingDetails_v1">								<fieldMapping arFieldId="536870948"/>							</element>							<
+   value          : element name="NetAmount" dataType="decimal" targetNamespace="urn:WS_Get_PricingDetails_v1">								<fieldMapping arFieldId="536870951"/>							</ele
+   value          : ment>							<element name="VATAmount" dataType="decimal" targetNamespace="urn:WS_Get_PricingDetails_v1">								<fieldMapping arFieldId="536870952"/
+   value          : >							</element>							<element name="Note" dataType="string" nillable="true" targetNamespace="urn:WS_Get_PricingDetails_v1">								<fieldMappi
+   value          : ng arFieldId="536870936"/>							</element>						</element>					</formMapping>				</element>			</element>		</formMapping>	</arDocMapping>
+   value          : \
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\1068\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="InputMapping" arDocVersion="8" schemaSource="impo
+   value          : rted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" c
+   value          : omplexType="urn:WS_Get_PricingDetails_v1:RemedyInput" targetNamespace="urn:WS_Get_PricingDetails_v1">				<element name="Operation" dataType="string" t
+   value          : argetNamespace="urn:WS_Get_PricingDetails_v1">					<fieldMapping arFieldId="8"/>				</element>				<element name="SessionID" dataType="string" targ
+   value          : etNamespace="urn:WS_Get_PricingDetails_v1">					<fieldMapping arFieldId="536870965"/>				</element>				<element name="Username" dataType="string" 
+   value          : targetNamespace="urn:WS_Get_PricingDetails_v1">					<fieldMapping arFieldId="536870971"/>				</element>				<element name="OrderID" dataType="strin
+   value          : g" targetNamespace="urn:WS_Get_PricingDetails_v1">					<fieldMapping arFieldId="536870917"/>				</element>			</element>		</formMapping>	</arDo
+   value          : cMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\5329\<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions targetNamespace="urn:WS_Get_PricingDetails_v1" xmlns="http://schemas.xmlsoap.org/wsdl/"
+   value          :  xmlns:ns0="urn:WS_Get_PricingDetails_v1" xmlns:s="urn:WS_Get_PricingDetails_v1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http:
+   value          : //schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <wsdl:types>  <xsd
+   value          : :schema elementFormDefault="qualified" targetNamespace="urn:WS_Get_PricingDetails_v1">   <xsd:element name="Get_PricingDetails" type="ns0:RemedyInput"
+   value          : />   <xsd:element name="Get_PricingDetailsResponse" type="ns0:RemedyOutput"/>   <xsd:element name="AuthenticationInfo" type="s:AuthenticationInfo"/>
+   value          :    <xsd:complexType name="AuthenticationInfo">    <xsd:sequence>     <xsd:element name="userName" type="xsd:string"/>     <xsd:element name="pas
+   value          : sword" type="xsd:string"/>     <xsd:element minOccurs="0" name="authentication" type="xsd:string"/>     <xsd:element minOccurs="0" name="locale" typ
+   value          : e="xsd:string"/>     <xsd:element minOccurs="0" name="timeZone" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>  </xsd:schema>  <x
+   value          : s:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:WS_Get_PricingDetails_v1" xmlns="urn:WS_Get_PricingDetai
+   value          : ls_v1" xmlns:xs="http://www.w3.org/2001/XMLSchema">       <xs:complexType name="RemedyOutput">           <xs:sequence>               <
+   value          : xs:element name="ReturnCode" type="xs:string"/>               <xs:element name="ReturnMessage" type="xs:string"/>               <xs:element 
+   value          : name="NumberOfRows" type="xs:int"/>               <xs:element ref="ProductDetails"/>           </xs:sequence>       </xs:complexType>
+   value          :        <xs:complexType name="Product">           <xs:sequence>               <xs:element name="ArticleID" type="xs:int"/>       
+   value          :         <xs:element name="SalesCode" type="xs:string"/>               <xs:element name="Description" type="xs:string"/>               <xs:el
+   value          : ement name="Quantity" type="xs:int"/>               <xs:element name="OrderID" type="xs:string"/>               <xs:element name="GrossAmoun
+   value          : t" type="xs:decimal"/>               <xs:element name="Discount" type="xs:decimal"/>               <xs:element name="UnitPrice" type="xs:dec
+   value          : imal"/>               <xs:element name="NetAmount" type="xs:decimal"/>               <xs:element name="VATAmount" type="xs:decimal"/> 
+   value          :               <xs:element name="Note" nillable="true" type="xs:string"/>           </xs:sequence>       </xs:complexType>       <xs:el
+   value          : ement name="ProductDetails">           <xs:complexType>               <xs:sequence>                   <xs:element maxOccurs="unbounded
+   value          : " minOccurs="0" ref="ProductDetail"/>               </xs:sequence>           </xs:complexType>       </xs:element>       <xs:ele
+   value          : ment name="ProductDetail" type="Product"/>       <xs:complexType name="RemedyInput">           <xs:sequence>               <xs:element
+   value          :  name="Operation" type="xs:string"/>               <xs:element name="SessionID" type="xs:string"/>               <xs:element name="Username"
+   value          :  type="xs:string"/>               <xs:element name="OrderID" type="xs:string"/>           </xs:sequence>       </xs:complexType>
+   value          :    </xs:schema> </wsdl:types>   <wsdl:message name="Get_PricingDetailsSoapIn">      <wsdl:part element="ns0:Get_PricingDetails" name="paramete
+   value          : rs"/>   </wsdl:message>   <wsdl:message name="Get_PricingDetailsSoapOut">      <wsdl:part element="ns0:Get_PricingDetailsResponse" name="par
+   value          : ameters"/>   </wsdl:message>   <wsdl:message name="ARAuthenticate">      <wsdl:part element="ns0:AuthenticationInfo" name="parameters"/>
+   value          :    </wsdl:message>   <wsdl:portType name="WS_Get_PricingDetails_v1PortType">      <wsdl:operation name="Get_PricingDetails">         <wsdl:i
+   value          : nput message="ns0:Get_PricingDetailsSoapIn"/>         <wsdl:output message="ns0:Get_PricingDetailsSoapOut"/>      </wsdl:operation>   </wsdl
+   value          : :portType>   <wsdl:binding name="WS_Get_PricingDetails_v1SoapBinding" type="ns0:WS_Get_PricingDetails_v1PortType">      <soap:binding style="doc
+   value          : ument" transport="http://schemas.xmlsoap.org/soap/http"/>      <wsdl:operation name="Get_PricingDetails">         <soap:operation soapAction="ur
+   value          : n:WS_Get_PricingDetails_v1/Get_PricingDetails" style="document"/>         <wsdl:input>            <soap:header message="ns0:ARAuthenticate" part
+   value          : ="parameters" use="literal">            </soap:header>            <soap:body use="literal"/>         </wsdl:input>         <wsdl:output>
+   value          :             <soap:body use="literal"/>         </wsdl:output>      </wsdl:operation>   </wsdl:binding>   <wsdl:service name="WS_Get_
+   value          : PricingDetails_v1Service">  <wsdl:documentation>Get_PricingDetails  </wsdl:documentation>      <wsdl:port binding="ns0:WS_Get_PricingDetails_v
+   value          : 1SoapBinding" name="WS_Get_PricingDetails_v1Soap">         <soap:address location="@LOCATION@"/>      </wsdl:port>   </wsdl:service></ws
+   value          : dl:definitions>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 4\2169\<?xml version="1.0" encoding="windows-1252"?><wsdl:types xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"> <xs:schema attributeFormDefault="unqu
+   value          : alified" elementFormDefault="qualified" targetNamespace="urn:WS_Get_PricingDetails_v1" xmlns="urn:WS_Get_PricingDetails_v1" xmlns:xs="http://www.w3.org/
+   value          : 2001/XMLSchema">    <xs:complexType name="RemedyOutput">       <xs:sequence>          <xs:element name="ReturnCode" type="xs:string"/>  
+   value          :         <xs:element name="ReturnMessage" type="xs:string"/>          <xs:element name="NumberOfRows" type="xs:int"/>          <xs:element ref="P
+   value          : roductDetails"/>       </xs:sequence>    </xs:complexType>    <xs:complexType name="Product">       <xs:sequence>          <xs:eleme
+   value          : nt name="ArticleID" type="xs:int"/>          <xs:element name="SalesCode" type="xs:string"/>          <xs:element name="Description" type="xs:st
+   value          : ring"/>          <xs:element name="Quantity" type="xs:int"/>          <xs:element name="OrderID" type="xs:string"/>          <xs:element nam
+   value          : e="GrossAmount" type="xs:decimal"/>          <xs:element name="Discount" type="xs:decimal"/>          <xs:element name="UnitPrice" type="xs:deci
+   value          : mal"/>          <xs:element name="NetAmount" type="xs:decimal"/>          <xs:element name="VATAmount" type="xs:decimal"/>          <xs:elem
+   value          : ent name="Note" nillable="true" type="xs:string"/>       </xs:sequence>    </xs:complexType>    <xs:element name="ProductDetails">      
+   value          :  <xs:complexType>          <xs:sequence>             <xs:element maxOccurs="unbounded" minOccurs="0" ref="ProductDetail"/>          </xs:seq
+   value          : uence>       </xs:complexType>    </xs:element>    <xs:element name="ProductDetail" type="Product"/>    <xs:complexType name="RemedyInpu
+   value          : t">       <xs:sequence>          <xs:element name="Operation" type="xs:string"/>          <xs:element name="SessionID" type="xs:string"/>
+   value          :           <xs:element name="Username" type="xs:string"/>          <xs:element name="OrderID" type="xs:string"/>       </xs:sequence>    </
+   value          : xs:complexType> </xs:schema></wsdl:types>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\85\http://fomtprd.belronbridge.com:8080/arsys/WSDL/public/foprd/WS_Get_PricingDetails_v1\
+   ref-groups     : 0
+}
+end
+begin container
+   name           : WS_CreateOrder_v2
+   type           : 5
+   num-references : 7
+   timestamp      : 1297587584
+   owner          : slehner
+   owning-obj     : 1\2\20\WS:GenericWebService\
+   last-changed   : arapiuser
+   export-version : 11
+   permission     : 0\1
+   label          : CreateOrder
+   description    : CreateOrder
+   change-diary   : 1225200104slehnerCR1167
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\283\	<wsProperties>		<wsType name="document - literal"/>		<xmlSchemaSource name="embedded"/>		<externalSchema name="C:\Documents and Settings\sl
+   value          : ehner\My Documents\Projects\Belron Bridge\Development\CR1167 Online Ordering Web Services\XSDs\Create_Order_v2.xsd"/>	</wsProperties>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\285\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="CreateOrder" type="create">		<inputMapping name="In
+   value          : putMapping" topLevelElement="CreateOrder"/>		<outputMapping name="OutputMapping" topLevelElement="CreateOrderResponse"/>	</operation>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\1085\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="OutputMapping" arDocVersion="8" schemaSource="imp
+   value          : orted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" 
+   value          : complexType="urn:WS_CreateOrder_v2:RemedyOutput" targetNamespace="urn:WS_CreateOrder_v2">				<element name="ReturnCode" dataType="string" targetNamesp
+   value          : ace="urn:WS_CreateOrder_v2">					<fieldMapping arFieldId="536870975"/>				</element>				<element name="ReturnMessage" dataType="string" targetName
+   value          : space="urn:WS_CreateOrder_v2">					<fieldMapping arFieldId="536870976"/>				</element>				<element name="SalesOrderNumber" dataType="string" nilla
+   value          : ble="true" targetNamespace="urn:WS_CreateOrder_v2">					<fieldMapping arFieldId="536870933"/>				</element>				<element name="DeliveryDay" dataTyp
+   value          : e="string" nillable="true" targetNamespace="urn:WS_CreateOrder_v2">					<fieldMapping arFieldId="536870934"/>				</element>			</element>		</form
+   value          : Mapping>	</arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\1497\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="InputMapping" arDocVersion="8" schemaSource="impo
+   value          : rted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" c
+   value          : omplexType="urn:WS_CreateOrder_v2:RemedyInput" targetNamespace="urn:WS_CreateOrder_v2">				<element name="Operation" dataType="string" targetNamespace
+   value          : ="urn:WS_CreateOrder_v2">					<fieldMapping arFieldId="8"/>				</element>				<element name="SessionID" dataType="string" targetNamespace="urn:WS_C
+   value          : reateOrder_v2">					<fieldMapping arFieldId="536870965"/>				</element>				<element name="Username" dataType="string" targetNamespace="urn:WS_Crea
+   value          : teOrder_v2">					<fieldMapping arFieldId="536870971"/>				</element>				<element name="OrderID" dataType="string" targetNamespace="urn:WS_CreateOr
+   value          : der_v2">					<fieldMapping arFieldId="536870917"/>				</element>				<element name="CustomerOrderNumber" dataType="string" targetNamespace="urn:WS_
+   value          : CreateOrder_v2">					<fieldMapping arFieldId="536870918"/>				</element>				<element name="OrderType" dataType="string" targetNamespace="urn:WS_Cr
+   value          : eateOrder_v2">					<fieldMapping arFieldId="536870919"/>				</element>				<element name="ShippingInstructions" dataType="string" targetNamespace="
+   value          : urn:WS_CreateOrder_v2">					<fieldMapping arFieldId="536870920"/>				</element>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\4014\<?xml version="1.0" encoding="UTF-8"?><definitions targetNamespace="urn:WS_CreateOrder_v2" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:ns0="
+   value          : urn:WS_CreateOrder_v2" xmlns:s="urn:WS_CreateOrder_v2" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap
+   value          : /encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <wsdl:types>  <xsd:schema elementFormDefault
+   value          : ="qualified" targetNamespace="urn:WS_CreateOrder_v2">   <xsd:element name="CreateOrder" type="ns0:RemedyInput"/>   <xsd:element name="CreateOrderRes
+   value          : ponse" type="ns0:RemedyOutput"/>   <xsd:element name="AuthenticationInfo" type="s:AuthenticationInfo"/>   <xsd:complexType name="AuthenticationInfo"
+   value          : >    <xsd:sequence>     <xsd:element name="userName" type="xsd:string"/>     <xsd:element name="password" type="xsd:string"/>     <xsd:element m
+   value          : inOccurs="0" name="authentication" type="xsd:string"/>     <xsd:element minOccurs="0" name="locale" type="xsd:string"/>     <xsd:element minOccurs="
+   value          : 0" name="timeZone" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>  </xsd:schema>  <xs:schema attributeFormDefault="unqualified" ele
+   value          : mentFormDefault="qualified" targetNamespace="urn:WS_CreateOrder_v2" xmlns="urn:WS_CreateOrder_v2" xmlns:xs="http://www.w3.org/2001/XMLSchema">    
+   value          :    <xs:complexType name="RemedyInput">           <xs:sequence>               <xs:element name="Operation" type="xs:string"/>          
+   value          :      <xs:element name="SessionID" type="xs:string"/>               <xs:element name="Username" type="xs:string"/>               <xs:element 
+   value          : name="OrderID" type="xs:string"/>               <xs:element name="CustomerOrderNumber" type="xs:string"/>               <xs:element name="Or
+   value          : derType" type="xs:string"/>               <xs:element name="ShippingInstructions" type="xs:string"/>           </xs:sequence>       </
+   value          : xs:complexType>       <xs:complexType name="RemedyOutput">           <xs:sequence>               <xs:element name="ReturnCode" type="x
+   value          : s:string"/>               <xs:element name="ReturnMessage" type="xs:string"/>               <xs:element name="SalesOrderNumber" nillable="tr
+   value          : ue" type="xs:string"/>               <xs:element name="DeliveryDay" nillable="true" type="xs:string"/>           </xs:sequence>       
+   value          : </xs:complexType>   </xs:schema> </wsdl:types>   <message name="CreateOrderSoapOut">      <part element="s:CreateOrderResponse" name="pa
+   value          : rameters"/>   </message>   <message name="CreateOrderSoapIn">      <part element="s:CreateOrder" name="parameters"/>   </message>   
+   value          : <message name="ARAuthenticate">      <part element="s:AuthenticationInfo" name="parameters"/>   </message>   <portType name="WS_CreateOrder_
+   value          : v2PortType">      <operation name="CreateOrder">         <input message="s:CreateOrderSoapIn"/>         <output message="s:CreateOrderSoapOu
+   value          : t"/>      </operation>   </portType>   <binding name="WS_CreateOrder_v2SoapBinding" type="s:WS_CreateOrder_v2PortType">      <soap:bindi
+   value          : ng style="document" transport="http://schemas.xmlsoap.org/soap/http"/>      <operation name="CreateOrder">         <soap:operation soapAction="u
+   value          : rn:WS_CreateOrder_v2/CreateOrder" style="document"/>         <input>            <soap:header message="s:ARAuthenticate" part="parameters" use="l
+   value          : iteral">            </soap:header>            <soap:body use="literal"/>         </input>         <output>            <soap:body use
+   value          : ="literal"/>         </output>      </operation>   </binding>   <service name="WS_CreateOrder_v2Service">  <wsdl:documentation>Cre
+   value          : ateOrder  </wsdl:documentation>      <port binding="s:WS_CreateOrder_v2SoapBinding" name="WS_CreateOrder_v2Soap">         <soap:address location
+   value          : ="@LOCATION@"/>      </port>   </service></definitions>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 4\1303\<?xml version="1.0" encoding="windows-1252"?><wsdl:types xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"> <xs:schema attributeFormDefault="unqu
+   value          : alified" elementFormDefault="qualified" targetNamespace="urn:WS_CreateOrder_v2" xmlns="urn:WS_CreateOrder_v2" xmlns:xs="http://www.w3.org/2001/XMLSchema
+   value          : ">    <xs:complexType name="RemedyInput">       <xs:sequence>          <xs:element name="Operation" type="xs:string"/>          <xs:elem
+   value          : ent name="SessionID" type="xs:string"/>          <xs:element name="Username" type="xs:string"/>          <xs:element name="OrderID" type="xs:str
+   value          : ing"/>          <xs:element name="CustomerOrderNumber" type="xs:string"/>          <xs:element name="OrderType" type="xs:string"/>          
+   value          : <xs:element name="ShippingInstructions" type="xs:string"/>       </xs:sequence>    </xs:complexType>    <xs:complexType name="RemedyOutput">
+   value          :        <xs:sequence>          <xs:element name="ReturnCode" type="xs:string"/>          <xs:element name="ReturnMessage" type="xs:string"/>
+   value          :           <xs:element name="SalesOrderNumber" nillable="true" type="xs:string"/>          <xs:element name="DeliveryDay" nillable="true" type="x
+   value          : s:string"/>       </xs:sequence>    </xs:complexType> </xs:schema></wsdl:types>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\78\http://fomtprd.belronbridge.com:8080/arsys/WSDL/public/foprd/WS_CreateOrder_v2\
+   ref-groups     : 0
+}
+end
+begin container
+   name           : WS_FO_WebAppointmentBooking
+   type           : 5
+   num-references : 7
+   timestamp      : 1505959174
+   owner          : admin_fr
+   owning-obj     : 1\2\24\FO:WebAppointmentBooking\
+   last-changed   : PNIMJE_FR
+   export-version : 11
+   permission     : 0\1
+   label          : Web Appointment Booking
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\180\<?xml version="1.0"?><portProperties name="New_Port_0"><portType name=""/><xmlSchemaSource name="embedded"/><externalSchema name=""/><portName na
+   value          : me="New_Port_0"/></portProperties>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\498\<?xml version="1.0" encoding="UTF-8"?><operation name="CreateTask" type="create">    <arOptions>        <setOptions>            <type>setFirst
+   value          : </type>            <documentType>full</documentType>        </setOptions>    </arOptions>    <inputMapping name="InputMapping1"        namespace="W
+   value          : S_FO_WebAppointmentBooking" topLevelElement="CreateTask"/>    <outputMapping name="OutputMapping1"        namespace="WS_FO_WebAppointmentBooking" topL
+   value          : evelElement="CreateTaskResponse"/></operation>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 4\0\\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\1018\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="OutputMapping1" schema
+   value          : Source="generated">    <formMapping>        <form distinguishingKeyId="1" foreignKeyId="1"            formName="FO:WebAppointmentBooking" primaryKeyI
+   value          : d="1"/>        <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:WS_FO_WebAppoin
+   value          : tmentBooking">            <element dataType="string" maxOccurs="1" minOccurs="1"                name="Request_ID" nillable="false" xmlType="false">  
+   value          :               <fieldMapping arFieldId="1" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default=""
+   value          :  maxOccurs="1"                minOccurs="1" name="Return_Code" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870936" ar
+   value          : FieldPart="" defaultAttachName=""/>            </element>        </element>    </formMapping></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\5143\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="InputMapping1" schemaS
+   value          : ource="generated">    <formMapping>        <form distinguishingKeyId="1" foreignKeyId="1"            formName="FO:WebAppointmentBooking" primaryKeyId
+   value          : ="1"/>        <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:WS_FO_WebAppoint
+   value          : mentBooking">            <element dataType="string" default="" maxOccurs="1"                minOccurs="1" name="Job_ID" nillable="false" xmlType="fals
+   value          : e">                <fieldMapping arFieldId="8" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" defa
+   value          : ult="" maxOccurs="1"                minOccurs="1" name="Branch_ID" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870923
+   value          : " arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="dateTime" default="" maxOccurs="1"                minOccu
+   value          : rs="1" name="Appointment_Start_DateTime"                nillable="false" xmlType="false">                <fieldMapping arFieldId="536870914" arFieldPa
+   value          : rt="" defaultAttachName=""/>            </element>            <element dataType="dateTime" default="" maxOccurs="1"                minOccurs="1" name
+   value          : ="Appointment_End_DateTime_Branch"                nillable="false" xmlType="false">                <fieldMapping arFieldId="536870959" arFieldPart="" 
+   value          : defaultAttachName=""/>            </element>            <element dataType="dateTime" default="" maxOccurs="1"                minOccurs="1"          
+   value          :       name="Customer_Availability_Start_DateTime"                nillable="false" xmlType="false">                <fieldMapping arFieldId="536870962" 
+   value          : arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="dateTime" default="" maxOccurs="1"                minOccurs
+   value          : ="1" name="Customer_Availability_End_DateTime"                nillable="false" xmlType="false">                <fieldMapping arFieldId="536870918" arF
+   value          : ieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="" maxOccurs="1"                minOccurs="1" 
+   value          : name="Technician_ID1" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870926" arFieldPart="" defaultAttachName=""/>      
+   value          :       </element>            <element dataType="string" default="" maxOccurs="1"                minOccurs="0" name="Technician_ID2" nillable="false" xm
+   value          : lType="false">                <fieldMapping arFieldId="536870932" arFieldPart="" defaultAttachName=""/>            </element>            <element dat
+   value          : aType="int" default="" maxOccurs="1"                minOccurs="1" name="Task_1_Degree_of_Diff"                nillable="false" xmlType="false">      
+   value          :           <fieldMapping arFieldId="536870913" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="int" default="
+   value          : " maxOccurs="1"                minOccurs="0" name="Task_2_Degree_of_Diff"                nillable="false" xmlType="false">                <fieldMappi
+   value          : ng arFieldId="536870938" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="Job"             
+   value          :    enumValues="Job,Linked Task,Non Productive,Customer Support,Absence,Additional"                maxOccurs="1" minOccurs="1" name="Main_Task_Type"   
+   value          :              nillable="false" xmlType="false">                <fieldMapping arFieldId="536870935" arFieldPart="" defaultAttachName=""/>            </e
+   value          : lement>            <element dataType="string" default="0" enumValues="0,1"                maxOccurs="1" minOccurs="0" name="Linked_Task_Type"        
+   value          :         nillable="false" xmlType="false">                <fieldMapping arFieldId="536871276" arFieldPart="" defaultAttachName=""/>            </elemen
+   value          : t>            <element dataType="string" default=""                enumValues="Branch,Mobile" maxOccurs="1" minOccurs="1"                name="Fittin
+   value          : g_Location" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870930" arFieldPart="" defaultAttachName=""/>            </el
+   value          : ement>            <element dataType="string" default="" maxOccurs="1"                minOccurs="1" name="Business_Unit_ID" nillable="false" xmlType="f
+   value          : alse">                <fieldMapping arFieldId="536870950" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="s
+   value          : tring" default=""                enumValues="Available,Unavailable" maxOccurs="1"                minOccurs="0" name="Cover_Available" nillable="false"
+   value          :  xmlType="false">                <fieldMapping arFieldId="536871272" arFieldPart="" defaultAttachName=""/>            </element>            <element 
+   value          : dataType="string" default="" maxOccurs="1"                minOccurs="1" name="Remedy_Login" nillable="false" xmlType="false">                <fieldMap
+   value          : ping arFieldId="2" arFieldPart="" defaultAttachName=""/>            </element>        </element>    </formMapping></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\5347\<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions targetNamespace="urn:WS_FO_WebAppointmentBooking" xmlns:s0="urn:WS_FO_WebAppointmentBoo
+   value          : king" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.or
+   value          : g/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <wsdl:types>  <xsd:schema elementFormDefault="qualified" targetNamespace="urn:WS_FO_WebAppoin
+   value          : tmentBooking">   <xsd:element name="CreateTask" type="s0:InputMapping1"/>   <xsd:complexType name="InputMapping1">    <xsd:sequence>     <xsd:el
+   value          : ement name="Job_ID" type="xsd:string"/>     <xsd:element name="Branch_ID" type="xsd:string"/>     <xsd:element name="Appointment_Start_DateTime" typ
+   value          : e="xsd:dateTime"/>     <xsd:element name="Appointment_End_DateTime_Branch" type="xsd:dateTime"/>     <xsd:element name="Customer_Availability_Start_
+   value          : DateTime" type="xsd:dateTime"/>     <xsd:element name="Customer_Availability_End_DateTime" type="xsd:dateTime"/>     <xsd:element name="Technician_I
+   value          : D1" type="xsd:string"/>     <xsd:element minOccurs="0" name="Technician_ID2" type="xsd:string"/>     <xsd:element name="Task_1_Degree_of_Diff" type=
+   value          : "xsd:int"/>     <xsd:element minOccurs="0" name="Task_2_Degree_of_Diff" type="xsd:int"/>     <xsd:element name="Main_Task_Type" type="s0:Main_Task_T
+   value          : ypeType"/>     <xsd:element default="0" minOccurs="0" name="Linked_Task_Type" type="s0:Linked_Task_TypeType"/>     <xsd:element name="Fitting_Locati
+   value          : on" type="s0:Fitting_LocationType"/>     <xsd:element name="Business_Unit_ID" type="xsd:string"/>     <xsd:element minOccurs="0" name="Cover_Availab
+   value          : le" type="s0:Cover_AvailableType"/>     <xsd:element name="Remedy_Login" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>   <xsd:simp
+   value          : leType name="Main_Task_TypeType">    <xsd:restriction base="xsd:string">     <xsd:enumeration value="Job"/>     <xsd:enumeration value="Linked Tas
+   value          : k"/>     <xsd:enumeration value="Non Productive"/>     <xsd:enumeration value="Customer Support"/>     <xsd:enumeration value="Absence"/>     <x
+   value          : sd:enumeration value="Additional"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:simpleType name="Linked_Task_TypeType">    <xsd:restriction
+   value          :  base="xsd:string">     <xsd:enumeration value="0"/>     <xsd:enumeration value="1"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:simpleT
+   value          : ype name="Fitting_LocationType">    <xsd:restriction base="xsd:string">     <xsd:enumeration value="Branch"/>     <xsd:enumeration value="Mobile"/
+   value          : >    </xsd:restriction>   </xsd:simpleType>   <xsd:simpleType name="Cover_AvailableType">    <xsd:restriction base="xsd:string">     <xsd:enum
+   value          : eration value="Available"/>     <xsd:enumeration value="Unavailable"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:element name="CreateTask
+   value          : Response" type="s0:OutputMapping1"/>   <xsd:complexType name="OutputMapping1">    <xsd:sequence>     <xsd:element name="Request_ID" type="xsd:stri
+   value          : ng"/>     <xsd:element name="Return_Code" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>   <xsd:element name="AuthenticationInfo" t
+   value          : ype="s0:AuthenticationInfo"/>   <xsd:complexType name="AuthenticationInfo">    <xsd:sequence>     <xsd:element name="userName" type="xsd:string"/>
+   value          :      <xsd:element name="password" type="xsd:string"/>     <xsd:element minOccurs="0" name="authentication" type="xsd:string"/>     <xsd:element mi
+   value          : nOccurs="0" name="locale" type="xsd:string"/>     <xsd:element minOccurs="0" name="timeZone" type="xsd:string"/>    </xsd:sequence>   </xsd:comple
+   value          : xType>  </xsd:schema> </wsdl:types>   <wsdl:message name="CreateTaskSoapIn">      <wsdl:part element="s0:CreateTask" name="parameters">    
+   value          :   </wsdl:part>   </wsdl:message>   <wsdl:message name="CreateTaskSoapOut">      <wsdl:part element="s0:CreateTaskResponse" name="parameters">
+   value          :       </wsdl:part>   </wsdl:message>   <wsdl:message name="ARAuthenticate">      <wsdl:part element="s0:AuthenticationInfo" name="parameters">
+   value          :       </wsdl:part>   </wsdl:message>   <wsdl:portType name="New_Port_0PortType">      <wsdl:operation name="CreateTask">         <wsdl:in
+   value          : put message="s0:CreateTaskSoapIn">       </wsdl:input>         <wsdl:output message="s0:CreateTaskSoapOut">       </wsdl:output>      </wsdl
+   value          : :operation>   </wsdl:portType>   <wsdl:binding name="New_Port_0SoapBinding" type="s0:New_Port_0PortType">      <soap:binding style="document" t
+   value          : ransport="http://schemas.xmlsoap.org/soap/http"/>      <wsdl:operation name="CreateTask">         <soap:operation soapAction="urn:WS_FO_WebAppoint
+   value          : mentBooking/CreateTask" style="document"/>         <wsdl:input>            <soap:header message="s0:ARAuthenticate" part="parameters" use="literal
+   value          : ">            </soap:header>            <soap:body use="literal"/>         </wsdl:input>         <wsdl:output>            <soap:body use=
+   value          : "literal"/>         </wsdl:output>      </wsdl:operation>   </wsdl:binding>   <wsdl:service name="WS_FO_WebAppointmentBookingService">   
+   value          :    <wsdl:port binding="s0:New_Port_0SoapBinding" name="New_Port_0Soap">         <soap:address location="@LOCATION@"/>      </wsdl:port>   </wsd
+   value          : l:service></wsdl:definitions>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\88\http://fomtprd.belronbridge.com:8080/arsys/WSDL/public/foprd/WS_FO_WebAppointmentBooking\
+   ref-groups     : 0
+}
+end
+begin container
+   name           : WS_Get_ProductQuestions_v1
+   type           : 5
+   num-references : 7
+   timestamp      : 1297587584
+   owner          : jhaddock
+   owning-obj     : 1\2\20\WS:GenericWebService\
+   last-changed   : arapiuser
+   export-version : 11
+   permission     : 0\1
+   label          : Get_ProductQuestions
+   description    : Get_ProductQuestions
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\227\	<wsProperties>		<wsType name="document - literal"/>		<xmlSchemaSource name="embedded"/>		<externalSchema name="C:\jfoss\work\Belron\CRs\CR 
+   value          : 1167 Webservices\XSDs\Complete\Get_ProductQuestions_v1.xsd"/>	</wsProperties>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\312\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="Get_ProductQuestions" type="create">		<inputMapping
+   value          :  name="InputMapping" topLevelElement="Get_ProductQuestions"/>		<outputMapping name="OutputMapping" topLevelElement="Get_ProductQuestionsResponse"/>	
+   value          : </operation>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\3093\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="OutputMapping" arDocVersion="8" schemaSource="imp
+   value          : orted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" 
+   value          : complexType="urn:WS_Get_ProductQuestions_v1:RemedyOutput" targetNamespace="urn:WS_Get_ProductQuestions_v1">				<element name="ReturnCode" dataType="st
+   value          : ring" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping arFieldId="536870975"/>				</element>				<element name="ReturnMessage" d
+   value          : ataType="string" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping arFieldId="536870976"/>				</element>				<element name="Quest
+   value          : ionSetID" dataType="string" nillable="true" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping arFieldId="536870933"/>				</element
+   value          : >				<element name="QuestionText" dataType="string" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping arFieldId="536870934"/>			
+   value          : 	</element>				<element name="QusetionID" dataType="int" nillable="true" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping arField
+   value          : Id="536870943"/>				</element>				<element name="NumberOfRows" dataType="int" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping 
+   value          : arFieldId="536870944"/>				</element>				<element name="ProductDetails" dataType="" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<formMap
+   value          : ping>						<form formName="WS:ChildOutput" foreignKeyId="8" primaryKeyId="1" distinguishingKeyId="536870913"/>						<element name="ProductDetail" ma
+   value          : xOccurs="unbounded" minOccurs="0" complexType="Product" targetNamespace="urn:WS_Get_ProductQuestions_v1">							<element name="ArticleID" dataType="in
+   value          : t" targetNamespace="urn:WS_Get_ProductQuestions_v1">								<fieldMapping arFieldId="536870943"/>							</element>							<element name="SalesCode"
+   value          :  dataType="string" targetNamespace="urn:WS_Get_ProductQuestions_v1">								<fieldMapping arFieldId="536870933"/>							</element>							<element 
+   value          : name="StockCode" dataType="string" targetNamespace="urn:WS_Get_ProductQuestions_v1">								<fieldMapping arFieldId="536870934"/>							</element>
+   value          : 							<element name="LegacyCode" dataType="string" targetNamespace="urn:WS_Get_ProductQuestions_v1">								<fieldMapping arFieldId="536870936"/>		
+   value          : 					</element>							<element name="Description" dataType="string" targetNamespace="urn:WS_Get_ProductQuestions_v1">								<fieldMapping arFieldId
+   value          : ="536870935"/>							</element>							<element name="RetailPrice" dataType="decimal" nillable="true" targetNamespace="urn:WS_Get_ProductQuestions_v1
+   value          : ">								<fieldMapping arFieldId="536870946"/>							</element>							<element name="DiscountableFlag" dataType="int" nillable="true" targetNames
+   value          : pace="urn:WS_Get_ProductQuestions_v1">								<fieldMapping arFieldId="536870944"/>							</element>						</element>					</formMapping>				</e
+   value          : lement>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\2518\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="InputMapping" arDocVersion="8" schemaSource="impo
+   value          : rted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" c
+   value          : omplexType="urn:WS_Get_ProductQuestions_v1:RemedyInput" targetNamespace="urn:WS_Get_ProductQuestions_v1">				<element name="Operation" dataType="strin
+   value          : g" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping arFieldId="8"/>				</element>				<element name="SessionID" dataType="string
+   value          : " targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping arFieldId="536870965"/>				</element>				<element name="Username" dataType="
+   value          : string" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping arFieldId="536870971"/>				</element>				<element name="QuestionSetID"
+   value          :  dataType="string" nillable="true" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping arFieldId="536870917"/>				</element>				<e
+   value          : lement name="PreviousAnswer" dataType="string" nillable="true" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping arFieldId="53687091
+   value          : 8"/>				</element>				<element name="RestartFlag" dataType="int" nillable="true" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMappi
+   value          : ng arFieldId="536870927"/>				</element>				<element name="VehicleID" dataType="int" nillable="true" targetNamespace="urn:WS_Get_ProductQuestions_v1
+   value          : ">					<fieldMapping arFieldId="536870928"/>				</element>				<element name="VehicleYearInteger" dataType="int" nillable="true" targetNamespace="u
+   value          : rn:WS_Get_ProductQuestions_v1">					<fieldMapping arFieldId="536870929"/>				</element>				<element name="WindowPositionID" dataType="int" nillabl
+   value          : e="true" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping arFieldId="536870996"/>				</element>				<element name="VehicleBodyTy
+   value          : peID" dataType="int" nillable="true" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping arFieldId="536870997"/>				</element>				
+   value          : <element name="GlassReference" dataType="int" nillable="true" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping arFieldId="536870998
+   value          : "/>				</element>				<element name="QusetionID" dataType="int" nillable="true" targetNamespace="urn:WS_Get_ProductQuestions_v1">					<fieldMapping
+   value          :  arFieldId="536870999"/>				</element>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\6087\<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions targetNamespace="urn:WS_Get_ProductQuestions_v1" xmlns="http://schemas.xmlsoap.org/wsdl
+   value          : /" xmlns:ns0="urn:WS_Get_ProductQuestions_v1" xmlns:s="urn:WS_Get_ProductQuestions_v1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc=
+   value          : "http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <wsdl:types>
+   value          :   <xsd:schema elementFormDefault="qualified" targetNamespace="urn:WS_Get_ProductQuestions_v1">   <xsd:element name="Get_ProductQuestions" type="ns0:Re
+   value          : medyInput"/>   <xsd:element name="Get_ProductQuestionsResponse" type="ns0:RemedyOutput"/>   <xsd:element name="AuthenticationInfo" type="s:Authentic
+   value          : ationInfo"/>   <xsd:complexType name="AuthenticationInfo">    <xsd:sequence>     <xsd:element name="userName" type="xsd:string"/>     <xsd:eleme
+   value          : nt name="password" type="xsd:string"/>     <xsd:element minOccurs="0" name="authentication" type="xsd:string"/>     <xsd:element minOccurs="0" name=
+   value          : "locale" type="xsd:string"/>     <xsd:element minOccurs="0" name="timeZone" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>  </xsd:s
+   value          : chema>  <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:WS_Get_ProductQuestions_v1" xmlns="urn:WS_Ge
+   value          : t_ProductQuestions_v1" xmlns:xs="http://www.w3.org/2001/XMLSchema">       <xs:complexType name="RemedyOutput">           <xs:sequence>
+   value          :                <xs:element name="ReturnCode" type="xs:string"/>               <xs:element name="ReturnMessage" type="xs:string"/>           
+   value          :     <xs:element name="QuestionSetID" nillable="true" type="xs:string"/>               <xs:element name="QuestionText" type="xs:string"/>    
+   value          :            <xs:element name="QusetionID" nillable="true" type="xs:int"/>               <xs:element name="NumberOfRows" type="xs:int"/>      
+   value          :          <xs:element ref="ProductDetails"/>           </xs:sequence>       </xs:complexType>       <xs:complexType name="Product">
+   value          :            <xs:sequence>               <xs:element name="ArticleID" type="xs:int"/>               <xs:element name="SalesCode" type="xs:st
+   value          : ring"/>               <xs:element name="StockCode" type="xs:string"/>               <xs:element name="LegacyCode" type="xs:string"/>  
+   value          :              <xs:element name="Description" type="xs:string"/>               <xs:element name="RetailPrice" nillable="true" type="xs:decimal"/>
+   value          :                <xs:element name="DiscountableFlag" nillable="true" type="xs:int"/>           </xs:sequence>       </xs:complexType>
+   value          :        <xs:element name="ProductDetails">           <xs:complexType>               <xs:sequence>                   <xs:element maxOc
+   value          : curs="unbounded" minOccurs="0" ref="ProductDetail"/>               </xs:sequence>           </xs:complexType>       </xs:element>
+   value          :        <xs:element name="ProductDetail" type="Product"/>       <xs:complexType name="RemedyInput">           <xs:sequence>          
+   value          :      <xs:element name="Operation" type="xs:string"/>               <xs:element name="SessionID" type="xs:string"/>               <xs:element
+   value          :  name="Username" type="xs:string"/>               <xs:element name="QuestionSetID" nillable="true" type="xs:string"/>               <xs:elem
+   value          : ent name="PreviousAnswer" nillable="true" type="xs:string"/>               <xs:element name="RestartFlag" nillable="true" type="xs:int"/>   
+   value          :             <xs:element name="VehicleID" nillable="true" type="xs:int"/>               <xs:element name="VehicleYearInteger" nillable="true" type=
+   value          : "xs:int"/>               <xs:element name="WindowPositionID" nillable="true" type="xs:int"/>               <xs:element name="VehicleBodyType
+   value          : ID" nillable="true" type="xs:int"/>               <xs:element name="GlassReference" nillable="true" type="xs:int"/>               <xs:elemen
+   value          : t name="QusetionID" nillable="true" type="xs:int"/>           </xs:sequence>       </xs:complexType>   </xs:schema> </wsdl:types>
+   value          :    <wsdl:message name="Get_ProductQuestionsSoapIn">      <wsdl:part element="ns0:Get_ProductQuestions" name="parameters"/>   </wsdl:message>
+   value          :    <wsdl:message name="ARAuthenticate">      <wsdl:part element="ns0:AuthenticationInfo" name="parameters"/>   </wsdl:message>   <wsdl:mes
+   value          : sage name="Get_ProductQuestionsSoapOut">      <wsdl:part element="ns0:Get_ProductQuestionsResponse" name="parameters"/>   </wsdl:message>   
+   value          : <wsdl:portType name="WS_Get_ProductQuestions_v1PortType">      <wsdl:operation name="Get_ProductQuestions">         <wsdl:input message="ns0:Get
+   value          : _ProductQuestionsSoapIn"/>         <wsdl:output message="ns0:Get_ProductQuestionsSoapOut"/>      </wsdl:operation>   </wsdl:portType>   
+   value          : <wsdl:binding name="WS_Get_ProductQuestions_v1SoapBinding" type="ns0:WS_Get_ProductQuestions_v1PortType">      <soap:binding style="document" transp
+   value          : ort="http://schemas.xmlsoap.org/soap/http"/>      <wsdl:operation name="Get_ProductQuestions">         <soap:operation soapAction="urn:WS_Get_Pr
+   value          : oductQuestions_v1/Get_ProductQuestions" style="document"/>         <wsdl:input>            <soap:header message="ns0:ARAuthenticate" part="param
+   value          : eters" use="literal">            </soap:header>            <soap:body use="literal"/>         </wsdl:input>         <wsdl:output>   
+   value          :          <soap:body use="literal"/>         </wsdl:output>      </wsdl:operation>   </wsdl:binding>   <wsdl:service name="WS_Get_Product
+   value          : Questions_v1Service">  <wsdl:documentation>Get_ProductQuestions  </wsdl:documentation>      <wsdl:port binding="ns0:WS_Get_ProductQuestions_v1
+   value          : SoapBinding" name="WS_Get_ProductQuestions_v1Soap">         <soap:address location="@LOCATION@"/>      </wsdl:port>   </wsdl:service></w
+   value          : sdl:definitions>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 4\2832\<?xml version="1.0" encoding="windows-1252"?><wsdl:types xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"> <xs:schema attributeFormDefault="unqu
+   value          : alified" elementFormDefault="qualified" targetNamespace="urn:WS_Get_ProductQuestions_v1" xmlns="urn:WS_Get_ProductQuestions_v1" xmlns:xs="http://www.w3.
+   value          : org/2001/XMLSchema">    <xs:complexType name="RemedyOutput">       <xs:sequence>          <xs:element name="ReturnCode" type="xs:string"/>
+   value          :           <xs:element name="ReturnMessage" type="xs:string"/>          <xs:element name="QuestionSetID" nillable="true" type="xs:string"/>    
+   value          :       <xs:element name="QuestionText" type="xs:string"/>          <xs:element name="QusetionID" nillable="true" type="xs:int"/>          <xs:ele
+   value          : ment name="NumberOfRows" type="xs:int"/>          <xs:element ref="ProductDetails"/>       </xs:sequence>    </xs:complexType>    <xs:co
+   value          : mplexType name="Product">       <xs:sequence>          <xs:element name="ArticleID" type="xs:int"/>          <xs:element name="SalesCode" ty
+   value          : pe="xs:string"/>          <xs:element name="StockCode" type="xs:string"/>          <xs:element name="LegacyCode" type="xs:string"/>         
+   value          :  <xs:element name="Description" type="xs:string"/>          <xs:element name="RetailPrice" nillable="true" type="xs:decimal"/>          <xs:elem
+   value          : ent name="DiscountableFlag" nillable="true" type="xs:int"/>       </xs:sequence>    </xs:complexType>    <xs:element name="ProductDetails">
+   value          :        <xs:complexType>          <xs:sequence>             <xs:element maxOccurs="unbounded" minOccurs="0" ref="ProductDetail"/>        
+   value          :   </xs:sequence>       </xs:complexType>    </xs:element>    <xs:element name="ProductDetail" type="Product"/>    <xs:complexType name="
+   value          : RemedyInput">       <xs:sequence>          <xs:element name="Operation" type="xs:string"/>          <xs:element name="SessionID" type="xs:st
+   value          : ring"/>          <xs:element name="Username" type="xs:string"/>          <xs:element name="QuestionSetID" nillable="true" type="xs:string"/>
+   value          :           <xs:element name="PreviousAnswer" nillable="true" type="xs:string"/>          <xs:element name="RestartFlag" nillable="true" type="xs:int"
+   value          : />          <xs:element name="VehicleID" nillable="true" type="xs:int"/>          <xs:element name="VehicleYearInteger" nillable="true" type="xs
+   value          : :int"/>          <xs:element name="WindowPositionID" nillable="true" type="xs:int"/>          <xs:element name="VehicleBodyTypeID" nillable="tru
+   value          : e" type="xs:int"/>          <xs:element name="GlassReference" nillable="true" type="xs:int"/>          <xs:element name="QusetionID" nillable="t
+   value          : rue" type="xs:int"/>       </xs:sequence>    </xs:complexType> </xs:schema></wsdl:types>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\87\http://fomtprd.belronbridge.com:8080/arsys/WSDL/public/foprd/WS_Get_ProductQuestions_v1\
+   ref-groups     : 0
+}
+end
+begin container
+   name           : WS_Basket_RemoveProduct_v1
+   type           : 5
+   num-references : 7
+   timestamp      : 1297587584
+   owner          : jhaddock
+   owning-obj     : 1\2\20\WS:GenericWebService\
+   last-changed   : arapiuser
+   export-version : 11
+   permission     : 0\1
+   label          : Basket_RemoveProduct
+   description    : Basket_RemoveProduct
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\227\	<wsProperties>		<wsType name="document - literal"/>		<xmlSchemaSource name="embedded"/>		<externalSchema name="C:\jfoss\work\Belron\CRs\CR 
+   value          : 1167 Webservices\XSDs\Complete\Basket_RemoveProduct_v1.xsd"/>	</wsProperties>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\312\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="Basket_RemoveProduct" type="create">		<inputMapping
+   value          :  name="InputMapping" topLevelElement="Basket_RemoveProduct"/>		<outputMapping name="OutputMapping" topLevelElement="Basket_RemoveProductResponse"/>	
+   value          : </operation>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\2535\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="OutputMapping" arDocVersion="8" schemaSource="imp
+   value          : orted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" 
+   value          : complexType="urn:WS_Basket_RemoveProduct_v1:RemedyOutput" targetNamespace="urn:WS_Basket_RemoveProduct_v1">				<element name="ReturnCode" dataType="st
+   value          : ring" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870975"/>				</element>				<element name="ReturnMessage" d
+   value          : ataType="string" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870976"/>				</element>				<element name="Order
+   value          : ID" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870933"/>				</element>			
+   value          : 	<element name="ArticleID" dataType="int" nillable="true" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870943"/>
+   value          : 				</element>				<element name="SalesCode" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping 
+   value          : arFieldId="536870934"/>				</element>				<element name="StockCode" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_RemoveProduct_v1
+   value          : ">					<fieldMapping arFieldId="536870935"/>				</element>				<element name="Description" dataType="string" nillable="true" targetNamespace="urn:W
+   value          : S_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870936"/>				</element>				<element name="Quantity" dataType="int" nillable="true" tar
+   value          : getNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870944"/>				</element>				<element name="CustomerJobNumber" dataTy
+   value          : pe="string" nillable="true" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870937"/>				</element>				<element 
+   value          : name="NetPrice" dataType="decimal" nillable="true" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870946"/>				</
+   value          : element>				<element name="AvailableFlag" dataType="int" nillable="true" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arField
+   value          : Id="536870945"/>				</element>				<element name="BasketLineID" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_RemoveProduct_v1">
+   value          : 					<fieldMapping arFieldId="536870938"/>				</element>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\2107\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="InputMapping" arDocVersion="8" schemaSource="impo
+   value          : rted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" c
+   value          : omplexType="urn:WS_Basket_RemoveProduct_v1:RemedyInput" targetNamespace="urn:WS_Basket_RemoveProduct_v1">				<element name="Operation" dataType="strin
+   value          : g" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="8"/>				</element>				<element name="SessionID" dataType="string
+   value          : " targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870965"/>				</element>				<element name="Username" dataType="
+   value          : string" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870971"/>				</element>				<element name="BasketLineID" 
+   value          : dataType="string" nillable="true" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870917"/>				</element>				<el
+   value          : ement name="ArticleID" dataType="int" nillable="true" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870927"/>			
+   value          : 	</element>				<element name="SalesCode" dataType="string" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870918"
+   value          : />				</element>				<element name="Quantity" dataType="int" nillable="true" targetNamespace="urn:WS_Basket_RemoveProduct_v1">					<fieldMapping ar
+   value          : FieldId="536870928"/>				</element>				<element name="OrderID" dataType="string" nillable="true" targetNamespace="urn:WS_Basket_RemoveProduct_v1">
+   value          : 					<fieldMapping arFieldId="536870919"/>				</element>				<element name="CustomerJobNumber" dataType="string" targetNamespace="urn:WS_Basket_Remov
+   value          : eProduct_v1">					<fieldMapping arFieldId="536870920"/>				</element>				<element name="SourceBranchID" dataType="string" targetNamespace="urn:WS_
+   value          : Basket_RemoveProduct_v1">					<fieldMapping arFieldId="536870921"/>				</element>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\5324\<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions targetNamespace="urn:WS_Basket_RemoveProduct_v1" xmlns="http://schemas.xmlsoap.org/wsdl
+   value          : /" xmlns:ns0="urn:WS_Basket_RemoveProduct_v1" xmlns:s="urn:WS_Basket_RemoveProduct_v1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc=
+   value          : "http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <wsdl:types>
+   value          :   <xsd:schema elementFormDefault="qualified" targetNamespace="urn:WS_Basket_RemoveProduct_v1">   <xsd:element name="Basket_RemoveProduct" type="ns0:Re
+   value          : medyInput"/>   <xsd:element name="Basket_RemoveProductResponse" type="ns0:RemedyOutput"/>   <xsd:element name="AuthenticationInfo" type="s:Authentic
+   value          : ationInfo"/>   <xsd:complexType name="AuthenticationInfo">    <xsd:sequence>     <xsd:element name="userName" type="xsd:string"/>     <xsd:eleme
+   value          : nt name="password" type="xsd:string"/>     <xsd:element minOccurs="0" name="authentication" type="xsd:string"/>     <xsd:element minOccurs="0" name=
+   value          : "locale" type="xsd:string"/>     <xsd:element minOccurs="0" name="timeZone" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>  </xsd:s
+   value          : chema>  <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="urn:WS_Basket_RemoveProduct_v1" xmlns="urn:WS_Ba
+   value          : sket_RemoveProduct_v1" xmlns:xs="http://www.w3.org/2001/XMLSchema">       <xs:complexType name="RemedyInput">           <xs:sequence> 
+   value          :               <xs:element name="Operation" type="xs:string"/>               <xs:element name="SessionID" type="xs:string"/>               <x
+   value          : s:element name="Username" type="xs:string"/>               <xs:element name="BasketLineID" nillable="true" type="xs:string"/>               
+   value          : <xs:element name="ArticleID" nillable="true" type="xs:int"/>               <xs:element name="SalesCode" type="xs:string"/>               <xs
+   value          : :element name="Quantity" nillable="true" type="xs:int"/>               <xs:element name="OrderID" nillable="true" type="xs:string"/>        
+   value          :        <xs:element name="CustomerJobNumber" type="xs:string"/>               <xs:element name="SourceBranchID" type="xs:string"/>           
+   value          : </xs:sequence>       </xs:complexType>       <xs:complexType name="RemedyOutput">           <xs:sequence>               <xs:elem
+   value          : ent name="ReturnCode" type="xs:string"/>               <xs:element name="ReturnMessage" type="xs:string"/>               <xs:element name="O
+   value          : rderID" nillable="true" type="xs:string"/>               <xs:element name="ArticleID" nillable="true" type="xs:int"/>               <xs:elem
+   value          : ent name="SalesCode" nillable="true" type="xs:string"/>               <xs:element name="StockCode" nillable="true" type="xs:string"/>       
+   value          :         <xs:element name="Description" nillable="true" type="xs:string"/>               <xs:element name="Quantity" nillable="true" type="xs:int"/
+   value          : >               <xs:element name="CustomerJobNumber" nillable="true" type="xs:string"/>               <xs:element name="NetPrice" nillable="
+   value          : true" type="xs:decimal"/>               <xs:element name="AvailableFlag" nillable="true" type="xs:int"/>               <xs:element name="Bas
+   value          : ketLineID" nillable="true" type="xs:string"/>           </xs:sequence>       </xs:complexType>   </xs:schema> </wsdl:types>   <w
+   value          : sdl:message name="Basket_RemoveProductSoapIn">      <wsdl:part element="ns0:Basket_RemoveProduct" name="parameters"/>   </wsdl:message>   <w
+   value          : sdl:message name="Basket_RemoveProductSoapOut">      <wsdl:part element="ns0:Basket_RemoveProductResponse" name="parameters"/>   </wsdl:message>
+   value          :    <wsdl:message name="ARAuthenticate">      <wsdl:part element="ns0:AuthenticationInfo" name="parameters"/>   </wsdl:message>   <wsdl:p
+   value          : ortType name="WS_Basket_RemoveProduct_v1PortType">      <wsdl:operation name="Basket_RemoveProduct">         <wsdl:input message="ns0:Basket_Rem
+   value          : oveProductSoapIn"/>         <wsdl:output message="ns0:Basket_RemoveProductSoapOut"/>      </wsdl:operation>   </wsdl:portType>   <wsdl:b
+   value          : inding name="WS_Basket_RemoveProduct_v1SoapBinding" type="ns0:WS_Basket_RemoveProduct_v1PortType">      <soap:binding style="document" transport="ht
+   value          : tp://schemas.xmlsoap.org/soap/http"/>      <wsdl:operation name="Basket_RemoveProduct">         <soap:operation soapAction="urn:WS_Basket_Remove
+   value          : Product_v1/Basket_RemoveProduct" style="document"/>         <wsdl:input>            <soap:header message="ns0:ARAuthenticate" part="parameters" 
+   value          : use="literal">            </soap:header>            <soap:body use="literal"/>         </wsdl:input>         <wsdl:output>          
+   value          :   <soap:body use="literal"/>         </wsdl:output>      </wsdl:operation>   </wsdl:binding>   <wsdl:service name="WS_Basket_RemoveProdu
+   value          : ct_v1Service">  <wsdl:documentation>Basket_RemoveProduct  </wsdl:documentation>      <wsdl:port binding="ns0:WS_Basket_RemoveProduct_v1SoapBin
+   value          : ding" name="WS_Basket_RemoveProduct_v1Soap">         <soap:address location="@LOCATION@"/>      </wsdl:port>   </wsdl:service></wsdl:def
+   value          : initions>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 4\2168\<?xml version="1.0" encoding="windows-1252"?><wsdl:types xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"> <xs:schema attributeFormDefault="unqu
+   value          : alified" elementFormDefault="qualified" targetNamespace="urn:WS_Basket_RemoveProduct_v1" xmlns="urn:WS_Basket_RemoveProduct_v1" xmlns:xs="http://www.w3.
+   value          : org/2001/XMLSchema">    <xs:complexType name="RemedyInput">       <xs:sequence>          <xs:element name="Operation" type="xs:string"/>
+   value          :           <xs:element name="SessionID" type="xs:string"/>          <xs:element name="Username" type="xs:string"/>          <xs:element name="Bas
+   value          : ketLineID" nillable="true" type="xs:string"/>          <xs:element name="ArticleID" nillable="true" type="xs:int"/>          <xs:element name="S
+   value          : alesCode" type="xs:string"/>          <xs:element name="Quantity" nillable="true" type="xs:int"/>          <xs:element name="OrderID" nillable="
+   value          : true" type="xs:string"/>          <xs:element name="CustomerJobNumber" type="xs:string"/>          <xs:element name="SourceBranchID" type="xs:st
+   value          : ring"/>       </xs:sequence>    </xs:complexType>    <xs:complexType name="RemedyOutput">       <xs:sequence>          <xs:element n
+   value          : ame="ReturnCode" type="xs:string"/>          <xs:element name="ReturnMessage" type="xs:string"/>          <xs:element name="OrderID" nillable="t
+   value          : rue" type="xs:string"/>          <xs:element name="ArticleID" nillable="true" type="xs:int"/>          <xs:element name="SalesCode" nillable="tr
+   value          : ue" type="xs:string"/>          <xs:element name="StockCode" nillable="true" type="xs:string"/>          <xs:element name="Description" nillable
+   value          : ="true" type="xs:string"/>          <xs:element name="Quantity" nillable="true" type="xs:int"/>          <xs:element name="CustomerJobNumber" ni
+   value          : llable="true" type="xs:string"/>          <xs:element name="NetPrice" nillable="true" type="xs:decimal"/>          <xs:element name="AvailableFl
+   value          : ag" nillable="true" type="xs:int"/>          <xs:element name="BasketLineID" nillable="true" type="xs:string"/>       </xs:sequence>    </xs
+   value          : :complexType> </xs:schema></wsdl:types>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\87\http://fomtprd.belronbridge.com:8080/arsys/WSDL/public/foprd/WS_Basket_RemoveProduct_v1\
+   ref-groups     : 0
+}
+end
+begin container
+   name           : WS_CreateOrder_v1
+   type           : 5
+   num-references : 7
+   timestamp      : 1297587584
+   owner          : jhaddock
+   owning-obj     : 1\2\20\WS:GenericWebService\
+   last-changed   : arapiuser
+   export-version : 11
+   permission     : 0\1
+   label          : CreateOrder
+   description    : CreateOrder
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\219\	<wsProperties>		<wsType name="document - literal"/>		<xmlSchemaSource name="embedded"/>		<externalSchema name="C:\jfoss\work\Belron\CRs\CR 
+   value          : 1167 Webservices\XSDs\Complete\Create_Order_v1.xsd"/>	</wsProperties>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\285\<?xml version="1.0" encoding="windows-1252"?>                             	<operation name="CreateOrder" type="create">		<inputMapping name="In
+   value          : putMapping" topLevelElement="CreateOrder"/>		<outputMapping name="OutputMapping" topLevelElement="CreateOrderResponse"/>	</operation>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\917\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="OutputMapping" arDocVersion="8" schemaSource="impo
+   value          : rted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" c
+   value          : omplexType="urn:WS_CreateOrder_v1:RemedyOutput" targetNamespace="urn:WS_CreateOrder_v1">				<element name="ReturnCode" dataType="string" targetNamespa
+   value          : ce="urn:WS_CreateOrder_v1">					<fieldMapping arFieldId="536870975"/>				</element>				<element name="ReturnMessage" dataType="string" targetNames
+   value          : pace="urn:WS_CreateOrder_v1">					<fieldMapping arFieldId="536870976"/>				</element>				<element name="SalesOrderNumber" dataType="string" nillab
+   value          : le="true" targetNamespace="urn:WS_CreateOrder_v1">					<fieldMapping arFieldId="536870933"/>				</element>			</element>		</formMapping>	</arDo
+   value          : cMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\1497\<?xml version="1.0" encoding="windows-1252"?>                             	<arDocMapping name="InputMapping" arDocVersion="8" schemaSource="impo
+   value          : rted">		<formMapping>			<form formName="WS:GenericWebService" foreignKeyId="1" primaryKeyId="1" distinguishingKeyId="1"/>			<element name="ROOT" c
+   value          : omplexType="urn:WS_CreateOrder_v1:RemedyInput" targetNamespace="urn:WS_CreateOrder_v1">				<element name="Operation" dataType="string" targetNamespace
+   value          : ="urn:WS_CreateOrder_v1">					<fieldMapping arFieldId="8"/>				</element>				<element name="SessionID" dataType="string" targetNamespace="urn:WS_C
+   value          : reateOrder_v1">					<fieldMapping arFieldId="536870965"/>				</element>				<element name="Username" dataType="string" targetNamespace="urn:WS_Crea
+   value          : teOrder_v1">					<fieldMapping arFieldId="536870971"/>				</element>				<element name="OrderID" dataType="string" targetNamespace="urn:WS_CreateOr
+   value          : der_v1">					<fieldMapping arFieldId="536870917"/>				</element>				<element name="CustomerOrderNumber" dataType="string" targetNamespace="urn:WS_
+   value          : CreateOrder_v1">					<fieldMapping arFieldId="536870918"/>				</element>				<element name="OrderType" dataType="string" targetNamespace="urn:WS_Cr
+   value          : eateOrder_v1">					<fieldMapping arFieldId="536870919"/>				</element>				<element name="ShippingInstructions" dataType="string" targetNamespace="
+   value          : urn:WS_CreateOrder_v1">					<fieldMapping arFieldId="536870920"/>				</element>			</element>		</formMapping>	</arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\4089\<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions targetNamespace="urn:WS_CreateOrder_v1" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:
+   value          : ns0="urn:WS_CreateOrder_v1" xmlns:s="urn:WS_CreateOrder_v1" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org
+   value          : /soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> <wsdl:types>  <xsd:schema elementFormDe
+   value          : fault="qualified" targetNamespace="urn:WS_CreateOrder_v1">   <xsd:element name="CreateOrder" type="ns0:RemedyInput"/>   <xsd:element name="CreateOrd
+   value          : erResponse" type="ns0:RemedyOutput"/>   <xsd:element name="AuthenticationInfo" type="s:AuthenticationInfo"/>   <xsd:complexType name="Authentication
+   value          : Info">    <xsd:sequence>     <xsd:element name="userName" type="xsd:string"/>     <xsd:element name="password" type="xsd:string"/>     <xsd:elem
+   value          : ent minOccurs="0" name="authentication" type="xsd:string"/>     <xsd:element minOccurs="0" name="locale" type="xsd:string"/>     <xsd:element minOcc
+   value          : urs="0" name="timeZone" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>  </xsd:schema>  <xs:schema attributeFormDefault="unqualified
+   value          : " elementFormDefault="qualified" targetNamespace="urn:WS_CreateOrder_v1" xmlns="urn:WS_CreateOrder_v1" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   value          :        <xs:complexType name="RemedyInput">           <xs:sequence>               <xs:element name="Operation" type="xs:string"/>    
+   value          :            <xs:element name="SessionID" type="xs:string"/>               <xs:element name="Username" type="xs:string"/>               <xs:el
+   value          : ement name="OrderID" type="xs:string"/>               <xs:element name="CustomerOrderNumber" type="xs:string"/>               <xs:element na
+   value          : me="OrderType" type="xs:string"/>               <xs:element name="ShippingInstructions" type="xs:string"/>           </xs:sequence>   
+   value          :     </xs:complexType>       <xs:complexType name="RemedyOutput">           <xs:sequence>               <xs:element name="ReturnCode" t
+   value          : ype="xs:string"/>               <xs:element name="ReturnMessage" type="xs:string"/>               <xs:element name="SalesOrderNumber" nillab
+   value          : le="true" type="xs:string"/>           </xs:sequence>       </xs:complexType>   </xs:schema> </wsdl:types>   <wsdl:message name=
+   value          : "CreateOrderSoapOut">      <wsdl:part element="ns0:CreateOrderResponse" name="parameters"/>   </wsdl:message>   <wsdl:message name="CreateOr
+   value          : derSoapIn">      <wsdl:part element="ns0:CreateOrder" name="parameters"/>   </wsdl:message>   <wsdl:message name="ARAuthenticate">      
+   value          : <wsdl:part element="ns0:AuthenticationInfo" name="parameters"/>   </wsdl:message>   <wsdl:portType name="WS_CreateOrder_v1PortType">      <w
+   value          : sdl:operation name="CreateOrder">         <wsdl:input message="ns0:CreateOrderSoapIn"/>         <wsdl:output message="ns0:CreateOrderSoapOut"/>
+   value          :       </wsdl:operation>   </wsdl:portType>   <wsdl:binding name="WS_CreateOrder_v1SoapBinding" type="ns0:WS_CreateOrder_v1PortType">    
+   value          :   <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>      <wsdl:operation name="CreateOrder">         <soap:opera
+   value          : tion soapAction="urn:WS_CreateOrder_v1/CreateOrder" style="document"/>         <wsdl:input>            <soap:header message="ns0:ARAuthenticate"
+   value          :  part="parameters" use="literal">            </soap:header>            <soap:body use="literal"/>         </wsdl:input>         <wsdl:ou
+   value          : tput>            <soap:body use="literal"/>         </wsdl:output>      </wsdl:operation>   </wsdl:binding>   <wsdl:service name="WS
+   value          : _CreateOrder_v1Service">  <wsdl:documentation>CreateOrder  </wsdl:documentation>      <wsdl:port binding="ns0:WS_CreateOrder_v1SoapBinding" na
+   value          : me="WS_CreateOrder_v1Soap">         <soap:address location="@LOCATION@"/>      </wsdl:port>   </wsdl:service></wsdl:definitions>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 4\1224\<?xml version="1.0" encoding="windows-1252"?><wsdl:types xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"> <xs:schema attributeFormDefault="unqu
+   value          : alified" elementFormDefault="qualified" targetNamespace="urn:WS_CreateOrder_v1" xmlns="urn:WS_CreateOrder_v1" xmlns:xs="http://www.w3.org/2001/XMLSchema
+   value          : ">    <xs:complexType name="RemedyInput">       <xs:sequence>          <xs:element name="Operation" type="xs:string"/>          <xs:elem
+   value          : ent name="SessionID" type="xs:string"/>          <xs:element name="Username" type="xs:string"/>          <xs:element name="OrderID" type="xs:str
+   value          : ing"/>          <xs:element name="CustomerOrderNumber" type="xs:string"/>          <xs:element name="OrderType" type="xs:string"/>          
+   value          : <xs:element name="ShippingInstructions" type="xs:string"/>       </xs:sequence>    </xs:complexType>    <xs:complexType name="RemedyOutput">
+   value          :        <xs:sequence>          <xs:element name="ReturnCode" type="xs:string"/>          <xs:element name="ReturnMessage" type="xs:string"/>
+   value          :           <xs:element name="SalesOrderNumber" nillable="true" type="xs:string"/>       </xs:sequence>    </xs:complexType> </xs:schema>
+   value          : </wsdl:types>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\78\http://fomtprd.belronbridge.com:8080/arsys/WSDL/public/foprd/WS_CreateOrder_v1\
+   ref-groups     : 0
+}
+end
+begin container
+   name           : WS_Create_UJT_v1
+   type           : 5
+   num-references : 7
+   timestamp      : 1473820065
+   owner          : NGALLOIS
+   owning-obj     : 1\2\19\FO:UnsecuredJobTask\
+   last-changed   : PNIMJE_FR
+   export-version : 11
+   permission     : 0\1
+   label          : CreateUJT
+   description    : This WS is for BOL unsecured jobs
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+reference {
+   type           : 32797
+   datatype       : 1
+   value          : 4\180\<?xml version="1.0"?><portProperties name="New_Port_0"><portType name=""/><xmlSchemaSource name="embedded"/><externalSchema name=""/><portName na
+   value          : me="New_Port_0"/></portProperties>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32798
+   datatype       : 1
+   value          : 4\469\<?xml version="1.0" encoding="UTF-8"?><operation name="WS_Create_UJT" type="create">    <arOptions>        <setOptions>            <type>setFi
+   value          : rst</type>            <documentType>full</documentType>        </setOptions>    </arOptions>    <inputMapping name="InputMapping1" namespace="WS_Cre
+   value          : ate_UJT_v1" topLevelElement="WS_Create_UJT"/>    <outputMapping name="OutputMapping1" namespace="WS_Create_UJT_v1" topLevelElement="WS_Create_UJTRespon
+   value          : se"/></operation>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32828
+   datatype       : 1
+   value          : 4\0\\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\753\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="OutputMapping1" schemaS
+   value          : ource="generated">    <formMapping>        <form distinguishingKeyId="1" foreignKeyId="1"            formName="FO:UnsecuredJobTask" primaryKeyId="1"/
+   value          : >        <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:WS_Create_UJT_v1">  
+   value          :           <element dataType="string" maxOccurs="1" minOccurs="1"                name="Unsecured_Job_Task_ID" nillable="false" xmlType="false">        
+   value          :         <fieldMapping arFieldId="1" arFieldPart="" defaultAttachName=""/>            </element>        </element>    </formMapping></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32799
+   datatype       : 1
+   value          : 4\12366\<?xml version="1.0" encoding="UTF-8"?><arDocMapping arDocVersion="11" externalSchema=""    generateXsiType="false" name="InputMapping1" schema
+   value          : Source="generated">    <formMapping>        <form distinguishingKeyId="1" foreignKeyId="1"            formName="FO:UnsecuredJobTask" primaryKeyId="1"
+   value          : />        <element all="false" dataType="ROOT" default="" maxOccurs="1"            minOccurs="1" name="ROOT" targetNamespace="urn:WS_Create_UJT_v1"> 
+   value          :            <element dataType="string" maxOccurs="1" minOccurs="1"                name="Submitter" nillable="false" xmlType="false">                <fi
+   value          : eldMapping arFieldId="2" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" minOccurs="1"
+   value          :                 name="Assigned_To" nillable="false" xmlType="false">                <fieldMapping arFieldId="4" arFieldPart="" defaultAttachName=""/>
+   value          :             </element>            <element dataType="string" default="Open"                enumValues="Open,In Progress,Follow-up,Complete - Success,C
+   value          : omplete - Failure"                maxOccurs="1" minOccurs="1" name="Status"                nillable="false" xmlType="false">                <fieldMap
+   value          : ping arFieldId="7" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="A" maxOccurs="1"       
+   value          :          minOccurs="1" name="Short_Description" nillable="false" xmlType="false">                <fieldMapping arFieldId="8" arFieldPart="" defaultAtta
+   value          : chName=""/>            </element>            <element dataType="string" default="" enumValues="Yes"                maxOccurs="1" minOccurs="1" name="
+   value          : zlock"                nillable="false" xmlType="false">                <fieldMapping arFieldId="536870915" arFieldPart="" defaultAttachName=""/>     
+   value          :        </element>            <element dataType="string" maxOccurs="1" minOccurs="1"                name="Job_ID" nillable="false" xmlType="false">   
+   value          :              <fieldMapping arFieldId="536870917" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" max
+   value          : Occurs="1" minOccurs="1"                name="Business_Unit_ID" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870918" a
+   value          : rFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="Branch"                enumValues="Branch,M
+   value          : obile" maxOccurs="1" minOccurs="1"                name="Fitting_Location" nillable="false" xmlType="false">                <fieldMapping arFieldId="53
+   value          : 6870920" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="dateTime" maxOccurs="1" minOccurs="1"             
+   value          :    name="Job_Creation_Date" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870921" arFieldPart="" defaultAttachName=""/>
+   value          :             </element>            <element dataType="string" default="Contact Centre"                enumValues="Contact Centre,Branch,Head Office - F
+   value          : inance,Head Office - Other"                maxOccurs="1" minOccurs="1" name="Job_Source"                nillable="false" xmlType="false">            
+   value          :     <fieldMapping arFieldId="536870922" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" default="Reg
+   value          : eneration"                enumValues="Regeneration,Reactivation,Online Booking"                maxOccurs="1" minOccurs="1" name="Opportunity_Type"   
+   value          :              nillable="false" xmlType="false">                <fieldMapping arFieldId="536870923" arFieldPart="" defaultAttachName=""/>            </e
+   value          : lement>            <element dataType="string" maxOccurs="1" minOccurs="1"                name="Region_ID" nillable="false" xmlType="false">          
+   value          :       <fieldMapping arFieldId="536870926" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" maxOccurs=
+   value          : "1" minOccurs="1"                name="Region_Name" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870927" arFieldPart="
+   value          : " defaultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" minOccurs="1"                name="Branch_ID" nill
+   value          : able="false" xmlType="false">                <fieldMapping arFieldId="536870930" arFieldPart="" defaultAttachName=""/>            </element>         
+   value          :    <element dataType="string" default="End" enumValues="End"                maxOccurs="1" minOccurs="1" name="ztmpAction"                nillable="fal
+   value          : se" xmlType="false">                <fieldMapping arFieldId="536870932" arFieldPart="" defaultAttachName=""/>            </element>            <eleme
+   value          : nt dataType="string" maxOccurs="1" minOccurs="1"                name="Creator" nillable="false" xmlType="false">                <fieldMapping arFieldI
+   value          : d="536870935" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" minOccurs="1"          
+   value          :       name="Submitter_Full_Name" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870942" arFieldPart="" defaultAttachName=
+   value          : ""/>            </element>            <element dataType="dateTime" default="" maxOccurs="1"                minOccurs="1" name="Email_Received_Time_St
+   value          : amp"                nillable="false" xmlType="false">                <fieldMapping arFieldId="536870945" arFieldPart="" defaultAttachName=""/>       
+   value          :      </element>            <element dataType="string" maxOccurs="1" minOccurs="1"                name="Owner_Address_Line_1" nillable="false" xmlType=
+   value          : "false">                <fieldMapping arFieldId="536870954" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType=
+   value          : "string" maxOccurs="1" minOccurs="1"                name="Vehicle_Registration" nillable="false" xmlType="false">                <fieldMapping arField
+   value          : Id="536870955" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" minOccurs="1"         
+   value          :        name="Caller_Surname" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870956" arFieldPart="" defaultAttachName=""/>
+   value          :             </element>            <element dataType="string" maxOccurs="1" minOccurs="1"                name="Branch_Name" nillable="false" xmlType="
+   value          : false">                <fieldMapping arFieldId="536870957" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="
+   value          : string" default="MR."                enumValues="MR.,MRS.,MISS,MS.,DR.,SIR,*" maxOccurs="1"                minOccurs="1" name="Caller_Title" nillable=
+   value          : "false" xmlType="false">                <fieldMapping arFieldId="536870958" arFieldPart="" defaultAttachName=""/>            </element>            <e
+   value          : lement dataType="string" maxOccurs="1" minOccurs="1"                name="Caller_Phone_Number" nillable="false" xmlType="false">                <field
+   value          : Mapping arFieldId="536870959" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" minOccur
+   value          : s="1"                name="Alternate_Phone_Number" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870960" arFieldPart=""
+   value          :  defaultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" minOccurs="1"                name="Vehicle_Make" ni
+   value          : llable="false" xmlType="false">                <fieldMapping arFieldId="536870961" arFieldPart="" defaultAttachName=""/>            </element>       
+   value          :      <element dataType="string" maxOccurs="1" minOccurs="1"                name="Vehicle_Model" nillable="false" xmlType="false">                <fiel
+   value          : dMapping arFieldId="536870962" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" minOccu
+   value          : rs="1"                name="Caller_First_Name" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870963" arFieldPart="" def
+   value          : aultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" minOccurs="1"                name="Owner_Post_Code" nil
+   value          : lable="false" xmlType="false">                <fieldMapping arFieldId="536870968" arFieldPart="" defaultAttachName=""/>            </element>        
+   value          :     <element dataType="string" maxOccurs="1" minOccurs="1"                name="Owner_Town_City" nillable="false" xmlType="false">                <fie
+   value          : ldMapping arFieldId="536870969" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" minOcc
+   value          : urs="1"                name="Owner_Email" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870971" arFieldPart="" defaultA
+   value          : ttachName=""/>            </element>            <element dataType="string" default="Fully Comprehensive"                enumValues="Fully Comprehensi
+   value          : ve,Third Party (with glass cover),Third Party (no glass cover),Unsure"                maxOccurs="1" minOccurs="1"                name="Type_of_Vehicle
+   value          : _Insurance" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870972" arFieldPart="" defaultAttachName=""/>            </el
+   value          : ement>            <element dataType="string"                default="Branch windscreen repair"                enumValues="Branch windscreen repair,Br
+   value          : anch windscreen replacement,Branch rear window replacement,Branch side window replacement,Branch windscreen diagnosis,Mobile windscreen repair,Mobile wi
+   value          : ndscreen replacement,Mobile rear window replacement,Mobile side window replacement,Mobile windscreen diagnosis,Other"                maxOccurs="1" minO
+   value          : ccurs="1" name="Type_of_job"                nillable="false" xmlType="false">                <fieldMapping arFieldId="536870973" arFieldPart="" defaul
+   value          : tAttachName=""/>            </element>            <element dataType="string" default="No" enumValues="No,Yes"                maxOccurs="1" minOccurs=
+   value          : "1"                name="Customer_agrees_to_market_messages"                nillable="false" xmlType="false">                <fieldMapping arFieldId=
+   value          : "536870974" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="dateTime" default="" maxOccurs="1"             
+   value          :    minOccurs="1" name="Appointment_from" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870975" arFieldPart="" defaultAtt
+   value          : achName=""/>            </element>            <element dataType="dateTime" default="" maxOccurs="1"                minOccurs="1" name="Appointment_to
+   value          : " nillable="false" xmlType="false">                <fieldMapping arFieldId="536870976" arFieldPart="" defaultAttachName=""/>            </element>   
+   value          :          <element dataType="string" maxOccurs="1" minOccurs="1"                name="Service_Centre" nillable="false" xmlType="false">                
+   value          : <fieldMapping arFieldId="536870977" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" mi
+   value          : nOccurs="1"                name="House_Number" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870978" arFieldPart="" def
+   value          : aultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" minOccurs="1"                name="State" nillable="fal
+   value          : se" xmlType="false">                <fieldMapping arFieldId="536870979" arFieldPart="" defaultAttachName=""/>            </element>            <eleme
+   value          : nt dataType="string" maxOccurs="1" minOccurs="1"                name="Offer_Code" nillable="false" xmlType="false">                <fieldMapping arFie
+   value          : ldId="536870980" arFieldPart="" defaultAttachName=""/>            </element>            <element dataType="string" maxOccurs="1" minOccurs="1"       
+   value          :          name="Note" nillable="false" xmlType="false">                <fieldMapping arFieldId="536870981" arFieldPart="" defaultAttachName=""/>       
+   value          :      </element>            <element dataType="string" default="" enumValues="No,Yes"                maxOccurs="1" minOccurs="1" name="Book_Direct"   
+   value          :              nillable="false" xmlType="false">                <fieldMapping arFieldId="536879531" arFieldPart="" defaultAttachName=""/>            </e
+   value          : lement>        </element>    </formMapping></arDocMapping>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32800
+   datatype       : 1
+   value          : 4\9124\<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions targetNamespace="urn:WS_Create_UJT_v1" xmlns:s0="urn:WS_Create_UJT_v1" xmlns:soap="http
+   value          : ://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="ht
+   value          : tp://www.w3.org/2001/XMLSchema"> <wsdl:types>  <xsd:schema elementFormDefault="qualified" targetNamespace="urn:WS_Create_UJT_v1">   <xsd:element n
+   value          : ame="WS_Create_UJT" type="s0:InputMapping1"/>   <xsd:complexType name="InputMapping1">    <xsd:sequence>     <xsd:element name="Submitter" type="x
+   value          : sd:string"/>     <xsd:element name="Assigned_To" type="xsd:string"/>     <xsd:element name="Status" type="s0:StatusType"/>     <xsd:element name="
+   value          : Short_Description" type="xsd:string"/>     <xsd:element name="zlock" type="s0:zlockType"/>     <xsd:element name="Job_ID" type="xsd:string"/>     
+   value          : <xsd:element name="Business_Unit_ID" type="xsd:string"/>     <xsd:element name="Fitting_Location" type="s0:Fitting_LocationType"/>     <xsd:element 
+   value          : name="Job_Creation_Date" type="xsd:dateTime"/>     <xsd:element name="Job_Source" type="s0:Job_SourceType"/>     <xsd:element name="Opportunity_Type
+   value          : " type="s0:Opportunity_TypeType"/>     <xsd:element name="Region_ID" type="xsd:string"/>     <xsd:element name="Region_Name" type="xsd:string"/>  
+   value          :    <xsd:element name="Branch_ID" type="xsd:string"/>     <xsd:element name="ztmpAction" type="s0:ztmpActionType"/>     <xsd:element name="Creator" t
+   value          : ype="xsd:string"/>     <xsd:element name="Submitter_Full_Name" type="xsd:string"/>     <xsd:element name="Email_Received_Time_Stamp" type="xsd:dateT
+   value          : ime"/>     <xsd:element name="Owner_Address_Line_1" type="xsd:string"/>     <xsd:element name="Vehicle_Registration" type="xsd:string"/>     <xsd:
+   value          : element name="Caller_Surname" type="xsd:string"/>     <xsd:element name="Branch_Name" type="xsd:string"/>     <xsd:element name="Caller_Title" type=
+   value          : "s0:Caller_TitleType"/>     <xsd:element name="Caller_Phone_Number" type="xsd:string"/>     <xsd:element name="Alternate_Phone_Number" type="xsd:str
+   value          : ing"/>     <xsd:element name="Vehicle_Make" type="xsd:string"/>     <xsd:element name="Vehicle_Model" type="xsd:string"/>     <xsd:element name="C
+   value          : aller_First_Name" type="xsd:string"/>     <xsd:element name="Owner_Post_Code" type="xsd:string"/>     <xsd:element name="Owner_Town_City" type="xsd:
+   value          : string"/>     <xsd:element name="Owner_Email" type="xsd:string"/>     <xsd:element name="Type_of_Vehicle_Insurance" type="s0:Type_of_Vehicle_Insuran
+   value          : ceType"/>     <xsd:element name="Type_of_job" type="s0:Type_of_jobType"/>     <xsd:element name="Customer_agrees_to_market_messages" type="s0:Custom
+   value          : er_agrees_to_market_messagesType"/>     <xsd:element name="Appointment_from" type="xsd:dateTime"/>     <xsd:element name="Appointment_to" type="xsd:
+   value          : dateTime"/>     <xsd:element name="Service_Centre" type="xsd:string"/>     <xsd:element name="House_Number" type="xsd:string"/>     <xsd:element n
+   value          : ame="State" type="xsd:string"/>     <xsd:element name="Offer_Code" type="xsd:string"/>     <xsd:element name="Note" type="xsd:string"/>     <xsd:e
+   value          : lement name="Book_Direct" type="s0:Customer_agrees_to_market_messagesType"/>    </xsd:sequence>   </xsd:complexType>   <xsd:simpleType name="Statu
+   value          : sType">    <xsd:restriction base="xsd:string">     <xsd:enumeration value="Open"/>     <xsd:enumeration value="In Progress"/>     <xsd:enumerati
+   value          : on value="Follow-up"/>     <xsd:enumeration value="Complete - Success"/>     <xsd:enumeration value="Complete - Failure"/>    </xsd:restriction>
+   value          :    </xsd:simpleType>   <xsd:simpleType name="zlockType">    <xsd:restriction base="xsd:string">     <xsd:enumeration value="Yes"/>    </xsd:rest
+   value          : riction>   </xsd:simpleType>   <xsd:simpleType name="Fitting_LocationType">    <xsd:restriction base="xsd:string">     <xsd:enumeration value="B
+   value          : ranch"/>     <xsd:enumeration value="Mobile"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:simpleType name="Job_SourceType">    <xsd:rest
+   value          : riction base="xsd:string">     <xsd:enumeration value="Contact Centre"/>     <xsd:enumeration value="Branch"/>     <xsd:enumeration value="Head Of
+   value          : fice - Finance"/>     <xsd:enumeration value="Head Office - Other"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:simpleType name="Opportuni
+   value          : ty_TypeType">    <xsd:restriction base="xsd:string">     <xsd:enumeration value="Regeneration"/>     <xsd:enumeration value="Reactivation"/>    
+   value          :  <xsd:enumeration value="Online Booking"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:simpleType name="ztmpActionType">    <xsd:restrictio
+   value          : n base="xsd:string">     <xsd:enumeration value="End"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:simpleType name="Caller_TitleType">  
+   value          :   <xsd:restriction base="xsd:string">     <xsd:enumeration value="MR."/>     <xsd:enumeration value="MRS."/>     <xsd:enumeration value="MISS"/>
+   value          :      <xsd:enumeration value="MS."/>     <xsd:enumeration value="DR."/>     <xsd:enumeration value="SIR"/>     <xsd:enumeration value="*"/>    </
+   value          : xsd:restriction>   </xsd:simpleType>   <xsd:simpleType name="Type_of_Vehicle_InsuranceType">    <xsd:restriction base="xsd:string">     <xsd:enu
+   value          : meration value="Fully Comprehensive"/>     <xsd:enumeration value="Third Party (with glass cover)"/>     <xsd:enumeration value="Third Party (no gla
+   value          : ss cover)"/>     <xsd:enumeration value="Unsure"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:simpleType name="Type_of_jobType">    <xsd
+   value          : :restriction base="xsd:string">     <xsd:enumeration value="Branch windscreen repair"/>     <xsd:enumeration value="Branch windscreen replacement"/>
+   value          :      <xsd:enumeration value="Branch rear window replacement"/>     <xsd:enumeration value="Branch side window replacement"/>     <xsd:enumeration 
+   value          : value="Branch windscreen diagnosis"/>     <xsd:enumeration value="Mobile windscreen repair"/>     <xsd:enumeration value="Mobile windscreen replacem
+   value          : ent"/>     <xsd:enumeration value="Mobile rear window replacement"/>     <xsd:enumeration value="Mobile side window replacement"/>     <xsd:enumer
+   value          : ation value="Mobile windscreen diagnosis"/>     <xsd:enumeration value="Other"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:simpleType nam
+   value          : e="Customer_agrees_to_market_messagesType">    <xsd:restriction base="xsd:string">     <xsd:enumeration value="No"/>     <xsd:enumeration value="Y
+   value          : es"/>    </xsd:restriction>   </xsd:simpleType>   <xsd:element name="WS_Create_UJTResponse" type="s0:OutputMapping1"/>   <xsd:complexType name="
+   value          : OutputMapping1">    <xsd:sequence>     <xsd:element name="Unsecured_Job_Task_ID" type="xsd:string"/>    </xsd:sequence>   </xsd:complexType>  
+   value          :  <xsd:element name="AuthenticationInfo" type="s0:AuthenticationInfo"/>   <xsd:complexType name="AuthenticationInfo">    <xsd:sequence>     <xsd:el
+   value          : ement name="userName" type="xsd:string"/>     <xsd:element name="password" type="xsd:string"/>     <xsd:element minOccurs="0" name="authentication" 
+   value          : type="xsd:string"/>     <xsd:element minOccurs="0" name="locale" type="xsd:string"/>     <xsd:element minOccurs="0" name="timeZone" type="xsd:string
+   value          : "/>    </xsd:sequence>   </xsd:complexType>  </xsd:schema> </wsdl:types>   <wsdl:message name="ARAuthenticate">      <wsdl:part element="s
+   value          : 0:AuthenticationInfo" name="parameters">      </wsdl:part>   </wsdl:message>   <wsdl:message name="WS_Create_UJTSoapIn">      <wsdl:part ele
+   value          : ment="s0:WS_Create_UJT" name="parameters">      </wsdl:part>   </wsdl:message>   <wsdl:message name="WS_Create_UJTSoapOut">      <wsdl:part 
+   value          : element="s0:WS_Create_UJTResponse" name="parameters">      </wsdl:part>   </wsdl:message>   <wsdl:portType name="New_Port_0PortType">      <
+   value          : wsdl:operation name="WS_Create_UJT">         <wsdl:input message="s0:WS_Create_UJTSoapIn">       </wsdl:input>         <wsdl:output message="s0
+   value          : :WS_Create_UJTSoapOut">       </wsdl:output>      </wsdl:operation>   </wsdl:portType>   <wsdl:binding name="New_Port_0SoapBinding" type="s0
+   value          : :New_Port_0PortType">      <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>      <wsdl:operation name="WS_Create_
+   value          : UJT">         <soap:operation soapAction="urn:WS_Create_UJT_v1/WS_Create_UJT" style="document"/>         <wsdl:input>            <soap:header m
+   value          : essage="s0:ARAuthenticate" part="parameters" use="literal">            </soap:header>            <soap:body use="literal"/>         </wsdl:inpu
+   value          : t>         <wsdl:output>            <soap:body use="literal"/>         </wsdl:output>      </wsdl:operation>   </wsdl:binding>   <wsdl
+   value          : :service name="WS_Create_UJT_v1Service">  <wsdl:documentation>This WS is for BOL unsecured jobs  </wsdl:documentation>      <wsdl:port binding="
+   value          : s0:New_Port_0SoapBinding" name="New_Port_0Soap">         <soap:address location="@LOCATION@"/>      </wsdl:port>   </wsdl:service></wsdl:def
+   value          : initions>\
+   ref-groups     : 0
+}
+reference {
+   type           : 32802
+   datatype       : 1
+   value          : 4\77\http://fomtprd.belronbridge.com:8080/arsys/WSDL/public/foprd/WS_Create_UJT_v1\
+   ref-groups     : 0
+}
+end

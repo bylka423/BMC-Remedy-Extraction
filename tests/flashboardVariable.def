@@ -1,0 +1,9 @@
+char-set: UTF-8
+begin Data Visualization Definition
+   name           : classcount
+   module         : Flashboard
+   subtype        : VARIABLE
+   objectdata     : 4,4,"Demo"; 5,4,"AR Init"; 6,7,"1297546626"; 7,6,"0"; 8,4,"Flashboard Module Definition"; 179,4,"{0101A3DE-336E-4CB5-B9B0-A37131A916CA}"; 41000,4,"Flashboard"; 41050,4,"classcount"; 41051,6,"1"; 41052,4,"VARIABLE"; 41053,4,"<?xml version="1.0" encoding="utf-8" ?><variable name="classc
+   objectdata     :+ount" guid="{0101A3DE-336E-4CB5-B9B0-A37131A916CA}" form="Sample:Classes" vui="Default Admin View" eventtype="" qual=""><operation type="0" expression="" primarygroupby="536870922" secondarygroupby="536870923"/><history enable="1" startdate="1157733696"><historyparams type = "3" freque
+   objectdata     :+ncy="1" hours="" weekdays="1;" monthday="0" week="0" month="0"/><historyexpiry type = "0" keepdata="" units="0"/></history></variable>"; 61000,4,"0;"; 61001,4,"Sample";
+end

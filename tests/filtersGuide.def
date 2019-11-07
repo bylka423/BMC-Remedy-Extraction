@@ -1,0 +1,490 @@
+char-set: UTF-8
+#
+#  File exported Fri Oct 11 12:23:08 2019
+#
+begin container
+   name           : FO:JPR_Guide50_ztmpAction_PrepareBookJobStockAction
+   type           : 4
+   num-references : 5
+   timestamp      : 1240372119
+   owner          : kmurdock
+   owning-obj     : 1\2\13\FO:JobProduct\
+   last-changed   : admin
+   export-version : 11
+   label          : zzGuide50_ztmpAction_PrepareBookJobStockAction
+   change-diary   : 1240372119admin15/04/2009 08:10:38 admin : CR1391A
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide50_ztmpAction_PrepareBookJobStockAction_10_SF(SetActionType=RESERVE
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide50_ztmpAction_PrepareBookJobStockAction_15_SF(GetPrimarySourceCollec
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide50_ztmpAction_PrepareBookJobStockAction_17_SF(SetStockToBeCollected
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide50_ztmpAction_PrepareBookJobStockAction_20_SF(SetActionType=REQUISIT
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide50_ztmpAction_PrepareBookJobStockAction_30_SF(StockStatus=Issue
+}
+end
+begin container
+   name           : FO:JPR_Guide49_ztmpAction_SalesCount
+   type           : 4
+   num-references : 3
+   timestamp      : 1174213399
+   owner          : kmurdock
+   owning-obj     : 1\2\13\FO:JobProduct\
+   last-changed   : admin
+   export-version : 11
+   label          : zzGuide49_ztmpAction_SalesCount
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide49_ztmpAction_SalesCount_010_SF(Get
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide49_ztmpAction_SalesCount_010_PF(Create
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide49_ztmpAction_SalesCount_030_PF(Update
+}
+end
+begin container
+   name           : FO:JPR_Guide42_ztmpAction_Repair
+   type           : 4
+   num-references : 2
+   timestamp      : 1174213397
+   owner          : kmurdock
+   owning-obj     : 1\2\13\FO:JobProduct\
+   last-changed   : admin
+   export-version : 11
+   label          : zzGuide42_ztmpAction_Repair
+   description    : Set this product to be repaired.
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide42_ztmpAction_Repair_010_SF(Repair
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide42_ztmpAction_Repair_020_SF(Repair
+}
+end
+begin container
+   name           : FO:JPR_Guide48_ztmpAction_ResolveStockManagement
+   type           : 4
+   num-references : 22
+   timestamp      : 1340155636
+   owner          : kmurdock
+   owning-obj     : 1\2\13\FO:JobProduct\
+   last-changed   : admin
+   export-version : 11
+   label          : zzGuide48_ztmpAction_ResolveStockManagement
+   help-text      : Added the new filter to the guideFO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_085_SFPF(IssueCancelFO:JPR_Guide48_ztmpAction_ResolveStockMa
+   help-text      : nagementAction_055_SFPF(ResReqCancel
+   change-diary   : 1164643286jhaddockE5056268261175619728slehnerE503120607Added filters:FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_010_SF(ErrorFO:
+   change-diary   : JPR_Guide48_ztmpAction_ResolveStockManagementAction_020_SF(Error1218686757admin22/07/2008 15:11:25 sshrinivasan : PR 1123 - E509674067 - USD Fix12
+   change-diary   : 82785971admin09/06/2010 15:46:32 SGAVARA : SER00121285730758admin06/09/2010 10:38:22 SGAVARA : PR1488 --> Added 3 filters(82,83 and 84) for Issue
+   change-diary   :  Cancel1311124090admin30/09/2010 17:20:13 admin : 06/09/2010 10:38:22 SGAVARA : PR1488 --> Added 3 filters(82,83 and 84) for Issue Cancel24/02/
+   change-diary   : 2011 09:53:34 SGAVARA : Added below filters to this Filter guideFO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_052_SF(ResReqCancelFO:JPR_Gui
+   change-diary   : de48_ztmpAction_ResolveStockManagementAction_053_PF(ResReqCancelFO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_054_PF(ResReqCancel31/05/
+   change-diary   : 2011 09:30:07 SGAVARA : PR15281322015078admin22/09/2011 14:58:54 MRAWAT : Modified as part of PR #1625 - 2 new Filters added 
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_010_SF(Error`!
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_030_SFM(Warning_10143
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_040_SFPF(ResReqChangeQTY
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_045_SF(ReqIssueCancel
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_050_SFPF(ResReqCancel
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_052_SF(ResReqCancel
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_053_PF(ResReqCancel
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_054_PF(ResReqCancel
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_055_SFPF(ResReqCancel
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_060_SF(ResReqDecrement
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_070_SF(IssueRequisition
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_080_SFPF(IssueCancel
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_082_SF(IssueCancel
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_083_PF(IssueCancel
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_084_PF(IssueCancel
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_084_PF(IssueCancel-Mobile
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_084_PF(IssueCancel-Repair
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_085_SFPF(IssueCancel
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_090_SF(IssueReserve
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide48_ztmpAction_ResolveStockManagementAction_100_SF(PFIssueChangeQTY
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_GuideShare_StockStatusErrorCode_000_SF(Issue-Unavailable
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_GuideShare_StockStatusErrorCode_000_SF(Issue-OracleConfiguration
+}
+end
+begin container
+   name           : FO:JPR_Guide45_ztmpAction_CopyJob
+   type           : 4
+   num-references : 1
+   timestamp      : 1174213398
+   owner          : kmurdock
+   owning-obj     : 1\2\13\FO:JobProduct\
+   last-changed   : admin
+   export-version : 11
+   label          : zzGuide45_ztmpAction_CopyJob
+   description    : Copies the producs to the new job
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide45_ztmpAction_CopyJob_01_PF(Push2JobProduct
+}
+end
+begin container
+   name           : FO:JPR_Guide41_AddLocationProduct
+   type           : 4
+   num-references : 14
+   timestamp      : 1193284261
+   owner          : admin
+   owning-obj     : 1\2\13\FO:JobProduct\
+   last-changed   : admin
+   export-version : 11
+   label          : Add Location Product
+   description    : Adds the Location Products relevant to this product
+   change-diary   : 1193284261admin04/10/2007 13:34:21 jhaddock : CR1038
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide41_010_SF(CheckifProduct_Glass
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide41_015_SF(CheckifProduct_Misc
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide41_020_SF(CheckifProduct_Repair
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide41_030_GotoEnd(NoProductsFound
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide41_040_SF(IsProductAlreadyOnJob
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide41_045_GotoAddProduct_GoProductExists
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : AddProduct
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide41_050_PFGoToEnd(AddProduct_Glass
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide41_055_PFGoToEnd(AddProduct_Misc
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide41_060_PFGoToEnd(AddProduct_Repair
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : ProductExists
+   value          : 0\
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide41_070_PFGoToEnd(ProductExists_Glass
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide41_080_PF(ProductExists_Misc
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : End
+   value          : 0\
+}
+end
+begin container
+   name           : FO:JPR_Guide47_ztmpAction_PrepareStockManagement
+   type           : 4
+   num-references : 13
+   timestamp      : 1256095621
+   owner          : kmurdock
+   owning-obj     : 1\2\13\FO:JobProduct\
+   last-changed   : admin
+   export-version : 11
+   label          : zzGuide47_ztmpAction_PrepareStockManagement
+   change-diary   : 1164643297jhaddockE5056268261175263629slehnerAdded missing filtersFO:JPR_Guide47_ztmpAction_PrepareStockManagementAction_120_SF(ErrorandFO:JP
+   change-diary   : R_Guide47_ztmpAction_PrepareStockManagementAction_130_SF(Errorto deal with problem of stock status remaining at Processing when error codes are return
+   change-diary   : ed from SCM.1175619020slehnerMoving filters   FO:JPR_Guide47_ztmpAction_PrepareStockManagementAction_120_SF(Error   and   FO:JPR_Guide47_ztmpAc
+   change-diary   : tion_PrepareStockManagementAction_130_SF(Errorto Guide48 after renaming them as they need to run during ResolveStockManagementAction as opposed to Pre
+   change-diary   : pareStockManagementAction.1256095621admin25/08/2009 10:05:20 ssoni : CR1186
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide47_ztmpAction_PrepareStockManagementAction_010_SF(ReturnedQty=NULL
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide47_ztmpAction_PrepareStockManagementAction_020_SF(ReserveChangeQTY
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide47_ztmpAction_PrepareStockManagementAction_030_SF(ReserveUnreserve
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide47_ztmpAction_PrepareStockManagementAction_040_SF(ResReqDecrement`!
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide47_ztmpAction_PrepareStockManagementAction_050_SF(ResReqDecrement`!
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide47_ztmpAction_PrepareStockManagementAction_060_SF(RqusitionChangeQTY
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide47_ztmpAction_PrepareStockManagementAction_070_SF(RequisitionCancel
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide47_ztmpAction_PrepareStockManagementAction_080_SF(IssueRequisition
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide47_ztmpAction_PrepareStockManagementAction_090_SF(IssueRequisition
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide47_ztmpAction_PrepareStockManagementAction_100_SF(IssueRequisition
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide47_ztmpAction_PrepareStockManagementAction_110_SF(IssueReserve
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_GuideShare_StockStatusErrorCode_000_SF(Issue-Unavailable
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_GuideShare_StockStatusErrorCode_000_SF(Issue-OracleConfiguration
+}
+end
+begin container
+   name           : FO:JPR_Guide46_ztmpAction_GetBranchName
+   type           : 4
+   num-references : 2
+   timestamp      : 1174213398
+   owner          : kmurdock
+   owning-obj     : 1\2\13\FO:JobProduct\
+   last-changed   : admin
+   export-version : 11
+   label          : zzGuide46_ztmpAction_GetBranchName
+   description    : Gets the branch name
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide46_ztmpAction_GetBranchName_10_SF(GetBranchName_NOT_CPT
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide46_ztmpAction_GetBranchName_20_SF(CPT
+}
+end
+begin container
+   name           : FO:JPR_Guide44_ztmpAction_SetPricingErrorLabel
+   type           : 4
+   num-references : 4
+   timestamp      : 1174213398
+   owner          : kmurdock
+   owning-obj     : 1\2\13\FO:JobProduct\
+   last-changed   : admin
+   export-version : 11
+   label          : zzGuide44_ztmpAction_SetPricingErrorLabel
+   description    : Set the pricing error label
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide44_ztmpAction_SetPricingErrorLabel_10_SFGotoDone(PriceOnAsking
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide44_ztmpAction_SetPricingErrorLabel_20_SFGotoDone(NoError
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide44_ztmpAction_SetPricingErrorLabel_30_SFGotoDone(Error
+}
+reference {
+   type           : 32774
+   datatype       : 1
+   label          : Done
+   value          : 0\
+}
+end
+begin container
+   name           : FO:JPR_Guide43_ztmpAction_Unrepair
+   type           : 4
+   num-references : 2
+   timestamp      : 1174213397
+   owner          : kmurdock
+   owning-obj     : 1\2\13\FO:JobProduct\
+   last-changed   : admin
+   export-version : 11
+   label          : zzGuide43_ztmpAction_Unrepair
+   description    : Set this product to be unrepaired - ie let it be selected again.
+   object-prop    : 5\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\60020\4\0\\
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide43_ztmpAction_Unrepair_10_SF(Unrepair
+}
+reference {
+   type           : 3
+   datatype       : 0
+   object         : FO:JPR_Guide43_ztmpAction_Unrepair_20_SF(Unrepair
+}
+end

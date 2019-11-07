@@ -1,0 +1,98 @@
+char-set: UTF-8
+#
+#  File exported Fri Oct 11 12:24:31 2019
+#
+begin char menu
+   name           : FO:DR_TBT_BU=$1000011$&&ParentFlowRequestId=$536871029$(Issue2
+   timestamp      : 1279069751
+   owner          : slehner
+   last-changed   : admin
+   refresh-code   : 2
+   char-menu      : 0\2\21\FO:MultiLevelRuleFlow\1\@\536870918\1\0\1\4\1\1\536870913\99\1000011\4\1\1\536870920\99\536871029\
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end
+begin char menu
+   name           : FO:DUR_RWC_BusinessUnit=1000011
+   timestamp      : 1221708608
+   owner          : ffortunato
+   last-changed   : admin
+   refresh-code   : 2
+   char-menu      : 0\2\16\FO:ReasoWrapCode\1\@\536870924\1\1\1\4\1\1\536870926\99\1000011\5\536870925\
+   change-diary   : 1221708608admin05/08/2008 10:35:11 npandey : CR1283
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end
+begin char menu
+   name           : FO:DR_Users_Branch ID=536871055
+   timestamp      : 1152656348
+   owner          : ffortunato
+   last-changed   : admin
+   refresh-code   : 2
+   char-menu      : 0\2\36\FO:JoinUserProfileBranch_UserProfile\1\@\536870914\8\1\4\1\1\536870913\99\536871055\
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end
+begin char menu
+   name           : FO:DR_ReportCodes
+   timestamp      : 1224729250
+   owner          : ffortunato
+   last-changed   : admin
+   refresh-code   : 1
+   char-menu      : 0\2\13\FO:ReportCode\1\@\536870916\536870916\1\1\4\1\1\7\2\6\0\4\1\1\536870950\99\1000011\
+   change-diary   : 1176211698jhaddockCR4761224729250admin24/09/2008 15:53:31 rnishtala : CR1340A
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end
+begin char menu
+   name           : FO:DR_TBT_BusinessUnitID=1000011&&Type=536871009(MainIssue
+   timestamp      : 1279069715
+   owner          : johnh
+   last-changed   : admin
+   refresh-code   : 2
+   char-menu      : 0\2\24\FO:MultiLevelMenuOptions\1\@\536870913\536870913\1\1\4\1\1\536870950\99\1000011\4\1\1\536870916\99\536871009\
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end
+begin char menu
+   name           : FO:DR_TBT_BU=$1000011$&&ParType=$536871009$&&ParRule=$536870977$(Issue 1
+   timestamp      : 1279069751
+   owner          : johnh
+   last-changed   : admin
+   refresh-code   : 2
+   char-menu      : 0\2\21\FO:MultiLevelRuleFlow\1\@\536870918\1\0\1\1\4\1\1\536870913\99\1000011\4\1\1\536870916\99\536871009\4\1\1\536870917\99\536870977\
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end
+begin char menu
+   name           : FO:DR_LaddawWebUsers
+   timestamp      : 1264561393
+   owner          : jfoss
+   last-changed   : admin
+   refresh-code   : 1
+   char-menu      : 0\2\14\FO:UserProfile\1\@\536871096\536871096\1\4\1\1\536870929\2\6\0\
+   change-diary   : 1224729250admin24/09/2008 15:52:29 rnishtala : CR1340A1264561393admin13/01/2010 06:35:58 mchidella : PR1378
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end
+begin char menu
+   name           : FO:DUR_CancelReason_BU=1000011
+   timestamp      : 1224729250
+   owner          : supton
+   last-changed   : admin
+   refresh-code   : 1
+   char-menu      : 0\2\17\FO:ConfigMenuData\1\@\536876000\536876000\1\1\4\1\1\8\2\4\12\CANCEL CODES\4\1\1\536870919\99\1000001\
+   change-diary   : 1224729250admin24/09/2008 15:55:01 rnishtala : CR1340A
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end
+begin char menu
+   name           : FO:DUR_RWC_CountryCode=536870917
+   timestamp      : 1152656348
+   owner          : ffortunato
+   last-changed   : admin
+   refresh-code   : 2
+   char-menu      : 0\2\16\FO:ReasoWrapCode\1\@\536870924\1\1\4\1\1\536870917\99\536870917\
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end
+begin char menu
+   name           : FO:DR_RoleName_BusinessUnit=1000011
+   timestamp      : 1152656348
+   owner          : rashford
+   last-changed   : admin
+   refresh-code   : 1
+   char-menu      : 0\2\7\FO:Role\1\@\8\8\1\1\4\1\1\536870937\99\1000011\4\1\1\536870913\2\2\0\
+   object-prop    : 4\60006\4\0\\60008\40\0\60009\4\0\\60010\4\0\\
+end
